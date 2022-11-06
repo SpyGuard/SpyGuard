@@ -1,0 +1,61 @@
+analysis:
+  active: true
+  free_issuers:
+  - C=AT, O=ZeroSSL, CN=ZeroSSL RSA Domain Secure Site CA
+  - C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3
+  - C=US, O=Let's Encrypt, CN=R3
+  heuristics: true
+  http_default_ports:
+  - 80
+  indicators_types:
+  - all
+  iocs: true
+  max_alerts: 3
+  max_ports: 1024
+  remote: false
+  tls_default_ports:
+  - 443
+  - 465
+  - 636
+  - 989
+  - 990
+  - 993
+  - 995
+  - 5223
+  whitelist: true
+backend:
+  login: userlogin
+  password: userpassword
+  remote_access: true
+frontend:
+  backend_option: true
+  download_links: false
+  http_port: 8000
+  remote_access: true
+  shutdown_option: true
+  slideshow: true
+  sparklines: true
+  update: false
+  user_lang: userlang
+  virtual_keyboard: true
+network:
+  in: wlan
+  internet_check: https://1.1.1.1
+  out: lo
+  ssids:
+  - Free
+  - Public
+  - Wifi
+  - Coffee
+  - Netgear
+  - Default
+  - D-link
+  - Guest
+  - WLAN
+  - ZyXEL
+  - Asus
+  - Wireless
+  tokenized_ssids: true
+project:
+  path: /usr/share/spyguard
+  tags_url: https://github.com/SpyGuard/spyguard/tags

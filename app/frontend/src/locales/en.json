@@ -1,0 +1,91 @@
+{
+    "home": {
+        "welcome_msg": "Welcome to SpyGuard.",
+        "help_msg": "We are going to help you to check your device.",
+        "start_btn": "Let's start!"
+    },
+    "analysis": {
+        "question": "Do you want to analyze the captured communications?",
+        "no_btn": "No, just save them",
+        "yes_btn": "Yes, let's do it",
+        "please_wait_msg": "Please wait during the analysis...",
+        "some_time_msg": "Yes, it can take some time..."
+    },
+    "capture": {
+        "intercept_coms_msg": "Intercepting the communications of ",
+        "stop_btn": "Stop the capture"
+    },
+    "generate-ap": {
+        "network_name": "Network name",
+        "network_password": "Network password",
+        "tap_msg": "Tap the white frame to generate a new network.",
+        "generate_ap_msg": "We generate an ephemeral network for you.",
+        "error_msg1": "Unfortunately, we got some issues <br />during the AP creation.",
+        "error_msg2": "Please verify that you've two WiFi interfaces on your device<br /> and try again by restarting it.",
+        "restart_btn": "Restart the device"
+    },
+    "report": {
+        "show_full_report": "Show the full report",
+        "start_new_capture": "Start a new capture",
+        "save_capture": "Save the capture",
+        "save": "Save",
+        "print": "Print",
+        "numbers": [
+            "zero",
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven",
+            "eight",
+            "nine",
+            "ten",
+            "eleven"
+        ],
+        "stalkerware_msg": "Your device is compromised by<br />a Stalkerware, please check the report.",
+        "location_msg": "An application is sharing your<br /> current geolocation with a third party.",
+        "fine_msg": "Everything looks fine, zero alerts.",
+        "high_msg": "You have {nb} high alert,<br />your device seems to be compromised.",
+        "moderate_msg": "You have {nb} moderate alerts,<br />your device might be compromised.",
+        "low_msg": "You have only {nb} low alerts,<br /> don't hesitate to check them.",
+        "save_report": "Save the report",
+        "report_of": "Report of",
+        "detection_methods": "Detection methods:",
+        "indicators": "Indicators",
+        "heuristics": "Anomalies",
+        "active": "Active",
+        "pcap_sha1": "Capture SHA1:",
+        "capture_started": "Capture started on:",
+        "capture_ended": "Capture ended on:",
+        "high": "high",
+        "moderate": "moderate",
+        "low": "low",
+        "uncat_coms_table" : "Uncategorized communications",
+        "protocol" : "Protocol",
+        "domain_name" : "Domain",
+        "ip_address" : "IP Address",
+        "port" : "Port"
+    },
+    "wifi-select": {
+        "wifi_connected": "Wi-Fi connected",
+        "wifi_not_connected": "Wi-Fi not connected. Please retry.",
+        "wifi_password": "Password",
+        "connect_to_it": "Connect to it"
+    },
+    "save-capture": {
+        "please_connect": "Please connect a USB key to save your capture.",
+        "we_are_saving": "We are saving your capture.",
+        "tap_msg": "You can tap the USB key to start a new capture.",
+        "capture_download": "The capture download is going to start...",
+        "start_capture_btn": "Start another capture"
+    },
+    "modals": {
+        "want_to_quit": "Do you want to leave the application?",
+        "no_go_back": "No, go back",
+        "yes_continue": "Yes, continue",
+        "please_give_the_password": "Please enter the password for the network: ",
+        "want_to_whitelist" : "Do you want to add <i class='ioc'>{host}</i> to the whitelist<br /> for the next analysis?"
+    }
+}

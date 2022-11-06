@@ -1,0 +1,147 @@
+{
+    "alerts": {
+        "PROTO-01": {
+            "title": "{} comunicazione in uscita dalla rete locale a {}.",
+            "description": "Il protocollo {} è comunemente utilizzato nelle reti interne. Verificare se l'host {} ha sfruttato altri avvisi, fattore che potrebbe indicare un possibile comportamento dannoso."
+        },
+        "PROTO-02": {
+            "title": "{} connessione a {} tramite una porta superiore o uguale a {}.",
+            "description": "Sono state rilevate {} connessioni a {} tramite la porta {}. L'utilizzo di una porta non standard a volte può essere associato ad attività dannose. È consigliabile verificare se questo host ha una buona reputazione esaminando altri avvisi ed effettuando una ricerca in Internet."
+        },
+        "PROTO-03": {
+            "title": "Sono state generate comunicazioni HTTP dirette all'host {}",
+            "description": "Il dispositivo ha effettuato uno scambio con l'host {} utilizzando HTTP, un protocollo non criptato. Anche se questo comportamento non è dannoso in sé, è raro rilevare comunicazioni HTTP generate da applicazioni per smartphone in esecuzione in background. Controllare la reputazione dell'host effettuando una ricerca in Internet."
+        },
+        "PROTO-04": {
+            "title": "Sono state rilevate comunicazioni HTTP dirette all'host {} su una porta non standard ({}).",
+            "description": "Il dispositivo ha effettuato uno scambio con l'host {} utilizzando HTTP, un protocollo non criptato sulla porta {}. Questo comportamento è decisamente insolito. Controllare la reputazione dell'host effettuando una ricerca in Internet."
+        },
+        "PROTO-05": {
+            "title": "Il server {} non è stato risolto da nessuna query DNS durante la sessione",
+            "description": "Questo indica che il server {} probabilmente non è stato risolto da nessun nome di dominio o che la risoluzione è già stata memorizzata nella cache dal dispositivo. Se l'host viene visualizzato in altri avvisi, controllarlo."
+        },
+        "IOC-01": {
+            "title": "È stata stabilita una connessione a {} ({}) con contrassegno {}.",
+            "description": "L'host {} è stato esplicitamente inserito nella blacklist per attività dannose. Probabilmente il dispositivo è compromesso e deve essere esaminato più a fondo da professionisti della sicurezza IT."
+        },
+        "IOC-02": {
+            "title": "Comunicazione a {} con il CIDR {} con contrassegno {}.",
+            "description": "Il server {} è ospitato in una rete nota per l'hosting di attività dannose. Nonostante questo comportamento non sia dannoso in sé, è necessario verificare se l'host è menzionato anche in altri avvisi. In caso di dubbi, cercare l'host in Internet per scoprire se è legittimo o meno."
+        },
+        "IOC-03": {
+            "title": "È stata effettuata una richiesta DNS a {} con contrassegno {}.",
+            "description": "Il nome di dominio {} visualizzato nell'acquisizione è stato esplicitamente contrassegnato come dannoso. Questo indica che il dispositivo è potenzialmente compromesso e deve essere esaminato a fondo."
+        },
+        "IOC-04": {
+            "title": "È stata effettuata una richiesta DNS a {} con contrassegno {}.",
+            "description": "Il nome di dominio {} visualizzato nell'acquisizione è stato esplicitamente contrassegnato come Tracker. Questo indica che una delle app attive esegue la geolocalizzazione dei movimenti dell'utente."
+        },
+        "IOC-05": {
+            "title": "È stata effettuata una richiesta DNS al dominio {} che è un servizio Free DNS.",
+            "description": "Il nome di dominio {} utilizza un servizio Free DNS. Questo tipo di servizio è comunemente utilizzato durante le operazioni di criminali informatici o autori di attacchi commissionati da stati esteri. L'utilizzo di questo tipo di servizio da parte di un'applicazione in esecuzione in background è molto sospetto e richiede ulteriori indagini."
+        },
+        "IOC-06": {
+            "title": "È stata effettuata una richiesta DNS al dominio {} contenente un dominio di primo livello sospetto.",
+            "description": "Il nome di dominio {} utilizza un dominio di primo livello sospetto ({}). Anche se non dannoso, questo dominio di primo livello non generico viene utilizzato regolarmente durante le operazioni di criminali informatici o autori di attacchi commissionati da stati esteri. Controllare questo dominio effettuando una ricerca tramite un motore di ricerca Internet. Se altri avvisi sono correlati all'host, è necessario considerare questo elemento molto sospetto."
+        },
+        "IOC-07": {
+            "title": "Nella comunicazione a {} è stato rilevato un certificato associato ad attività {}.",
+            "description": "Il certificato ({}) associato a {} è stato esplicitamente contrassegnato come dannoso. Questo indica che il dispositivo è potenzialmente compromesso e necessita di un'analisi forense."
+        },
+        "IOC-08": {
+            "title": "È stata effettuata una richiesta HTTP a {} con contrassegno {}.",
+            "description": "Il nome di dominio {} visualizzato nell'acquisizione è stato esplicitamente contrassegnato come dannoso. Questo indica che il dispositivo è potenzialmente compromesso e deve essere esaminato a fondo."
+        },
+        "IOC-09": {
+            "title": "È stata effettuata una richiesta HTTP al dominio {} che è un servizio Free DNS.",
+            "description": "Il nome di dominio {} utilizza un servizio Free DNS. Questo tipo di servizio è comunemente utilizzato durante le operazioni di criminali informatici o autori di attacchi commissionati da stati esteri. L'utilizzo di questo tipo di servizio da parte di un'applicazione in esecuzione in background è molto sospetto e richiede ulteriori indagini."
+        },
+        "IOC-10": {
+            "title": "È stata effettuata una richiesta HTTP al dominio {} contenente un dominio di primo livello sospetto.",
+            "description": "Il nome di dominio {} utilizza un dominio di primo livello sospetto ({}). Anche se non dannoso, questo dominio di primo livello non generico viene utilizzato regolarmente durante le operazioni di criminali informatici o autori di attacchi commissionati da stati esteri. Controllare questo dominio effettuando una ricerca tramite un motore di ricerca Internet. Se altri avvisi sono correlati all'host, è necessario considerare questo elemento molto sospetto."
+        },
+        "IOC-11": {
+            "title": "Connessione a {} ({}) a cui si fa riferimento come nodo TOR.",
+            "description": "Il server {} è un nodo della rete di anonimizzazione TOR. Il dispositivo analizzato sembra utilizzare TOR o comunicare con un server configurato come un nodo di ingresso o di uscita TOR. Alcuni attaccanti usano TOR sui loro server per coprire le loro tracce."
+        },
+        "IOC-12": {
+            "title": "Un'applicazione richiede un servizio legittimo che può avere un doppio uso .",
+            "description": "Il server {} viene utilizzato per scopi legittimi. Tuttavia, alcuni attaccanti possono utilizzarlo per interagire con i loro impianti. Si consiglia di verificare che il dispositivo analizzato contenga un'applicazione legittima che utilizza questo servizio."
+        },
+        "IOC-13": {
+            "title": "Almeno un'applicazione utilizza query DNS crittografate.",
+            "description": "Il DNS sul server https {} è stato contattato durante la cattura. Questo sembra indicare che almeno un'applicazione utilizza questa tecnica per crittografare le sue richieste DNS. Questa funzione limita le capacità di scansione di SpyGuard. Se questa funzione non è abilitata sul dispositivo analizzato, può essere la pena scoprire quale applicazione sta utilizzando questo metodo."
+        },
+        "ACT-01": {
+            "title": "Il dominio {} utilizza un server dei nomi sospetto ({}).",
+            "description": "Il nome di dominio {} utilizza un server dei nomi che è stato esplicitamente contrassegnato come associato ad attività dannose. Molti criminali informatici e autori di attacchi commissionati da stati esteri utilizzano questo tipo di registrar poiché sono ammessi criptovalute e pagamenti anonimi. È consigliabile indagare su questo dominio e sull'applicazione in esecuzione associata eseguendo un'analisi forense del telefono."
+        },
+        "ACT-02": {
+            "title": "Il dominio {} è stato creato di recente ({} giorni fa)",
+            "description": "Il nome di dominio {} è nuovo. Anche questo non è intrinsecamente dannoso, è abbastanza comune per gli aggressori impostare una nuova infrastruttura per ogni campagna, che può portare all'uso di nomi di dominio appena registrati."
+        },
+        "SSL-01": {
+            "title": "Connessione SSL eseguita su una porta non standard ({}) a {}",
+            "description": "Non è comune rilevare connessioni SSL generate da smartphone tramite porte non standard. Anche se questo può essere del tutto legittimo, è consigliabile controllare la reputazione di {} prestando attenzione al record WHOIS, al sistema autonomo associato e alla data di creazione, nonché effettuando una ricerca in Internet."
+        },
+        "SSL-02": {
+            "title": "Una connessione SSL a {} utilizza un certificato gratuito.",
+            "description": "I certificati gratuiti, come Let's Encrypt, sono ampiamente utilizzati dai server di comando e controllo associati a insediamenti dannosi o pagine Web di phishing. È consigliabile controllare l'host associato a questo certificato, prestando attenzione al nome di dominio e alla data di creazione o verificandone la reputazione in Internet."
+        },
+        "SSL-03": {
+            "title": "Il certificato associato a {} è autofirmato.",
+            "description": "L'utilizzo di certificati autofirmati è una consuetudine per l'infrastruttura degli autori degli attacchi. È consigliabile controllare l'host {} associato a questo certificato, prestando attenzione all'eventuale nome di dominio, al record WHOIS e alla data di creazione, nonché verificandone la reputazione in Internet."
+        },
+        "SSL-04": {
+            "title": "Il certificato associato a {} è collegato ad attività dannose ({}).",
+            "description": "Il certificato associato al server {} è stato esplicitamente classificato come dannoso. Il dispositivo sembra compromesso e deve essere ulteriormente indagato da un team di professionisti."
+        },
+        "SSL-05": {
+            "title": "La configurazione SSL di {} è collegata ad attività dannose ({}).",
+            "description": "L'hash JARM relativo al server {} è stato esplicitamente associato ad attività dannose. Il dispositivo è probabilmente compromessa e deve essere ulteriormente indagato da un team di professionisti."
+        },
+        "ADV-01": {
+            "title": "Controllare gli avvisi per {}",
+            "description": "Controllare la reputazione dell'host {}, che sembra di natura dannosa poiché ha sfruttato {} avvisi durante la sessione."
+        },
+        "SNORT-01": {
+            "title": "Regola Suricata attivata: {}",
+            "description": "È stata attivata una regola di rilevamento della rete. È probabile che il dispositivo sia stato compromesso o che presenti comportamenti sospetti."
+        }
+    },
+    "report": {
+        "numbers": [
+            "uno",
+            "due",
+            "tre",
+            "quattro",
+            "cinque",
+            "sei",
+            "sette",
+            "otto",
+            "nove"
+        ],
+        "suspect_title": "Comunicazioni sospette",
+        "uncat_title": "Comunicazioni non categorizzate",
+        "whitelist_title": "Comunicazioni inserite nella whitelist",
+        "protocol": "Protocollo",
+        "domain": "Dominio",
+        "dst_ip": "Indirizzo IP di destinazione",
+        "dst_port": "Numero della porta di destinazione",
+        "device_mac": "Indirizzo MAC dispositivo",
+        "report_generated_on": "Rapporto generato in data",
+        "capture_duration": "Durata acquisizione",
+        "packets_number": "Numero di pacchetti",
+        "capture_sha1": "SHA1 acquisizione",
+        "report_for_the_capture": "Rapporto relativo all'acquisizione",
+        "report_footer": "Questo rapporto è stato generato automaticamente da un dispositivo SpyGuard. Per eventuali domande, segnalazioni di bug o feedback, contattare contact@spyguard.io.",
+        "high_msg": "Sembra che il dispositivo sia compromesso poiché sono presenti {} avvisi con priorità elevata.",
+        "moderate_msg": "Sono presenti {} avvisi con priorità moderata, è possibile che il dispositivo sia compromesso. Esaminarli con attenzione.",
+        "low_msg": "Sono presenti solo {} avvisi con priorità bassa da controllare.",
+        "none_msg": "Sembra tutto a posto, non sono presenti avvisi. Controllare eventuali comunicazioni non categorizzate.",
+        "detection_methods": "Metodi di rilevamento",
+        "analysis_duration": "Tempo di analisi",
+        "instance_uuid": "Istanza di SpyGuard",
+        "seconds" : "secondi"
+    }
+}

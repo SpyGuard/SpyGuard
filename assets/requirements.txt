@@ -1,0 +1,17 @@
+ipwhois
+pydig
+pymisp
+netaddr
+pyyaml
+flask
+flask_httpauth
+pyjwt
+sqlalchemy
+psutil
+pyudev
+qrcode
+netifaces
+weasyprint
+python-whois
+publicsuffix2
+six>=1.13.0

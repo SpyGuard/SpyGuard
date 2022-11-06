@@ -1,0 +1,147 @@
+{
+    "alerts": {
+        "PROTO-01": {
+            "title": "Comunicação {} externa à rede local para {}.",
+            "description": "O protocolo {} é comumente usado em redes internas. Verifique se o host {} acionou outros alertas que possam indicar um possível comportamento malicioso."
+        },
+        "PROTO-02": {
+            "title": "Conexão {} a {} para uma porta maior ou igual a {}.",
+            "description": "Conexões {} foram detectadas por {} usando a porta {}. O uso da porta não padrão é comumente associado a atividades maliciosas. É recomendado verificar se esse host tem uma boa reputação verificando outros alertas e pesquisando-o na internet."
+        },
+        "PROTO-03": {
+            "title": "Comunicações HTTP foram realizadas com o host {}",
+            "description": "O dispositivo foi conectado ao host {} por meio de HTTP, um protocolo não criptografado. Mesmo que esse comportamento, por si só, não seja malicioso, é incomum que comunicações HTTP sejam estabelecidas por meio de aplicativos móveis em segundo plano. Verifique a reputação do host pesquisando-o na Internet."
+        },
+        "PROTO-04": {
+            "title": "Comunicações HTTP foram detectadas pelo host {} por meio de uma porta não padrão ({}).",
+            "description": "O dispositivo foi conectado ao host {} por meio de HTTP, um protocolo não criptografado na porta {}. Esse comportamento é incomum. Verifique a reputação do host pesquisando-o na Internet."
+        },
+        "PROTO-05": {
+            "title": "O servidor {} não foi resolvido por nenhuma consulta de DNS durante a sessão",
+            "description": "Isso significa provavelmente que o servidor {} não foi resolvido por nenhum nome de domínio ou a resolução já foi armazenada pelo dispositivo. Se o host aparecer em outros alertas, verifique-os."
+        },
+        "IOC-01": {
+            "title": "Uma conexão foi estabelecida com {} ({}) e marcada como {}.",
+            "description": "O host {} foi explicitamente bloqueado devido a atividades maliciosas. O dispositivo provavelmente foi comprometido e precisa ser analisado com cuidado por profissionais de segurança de TI."
+        },
+        "IOC-02": {
+            "title": "Comunicação com {} com o CIDR {} marcado como {}.",
+            "description": "O host {} está hospedado em uma rede que é conhecida por atividades maliciosas. Mesmo que o comportamento, por si só, não seja malicioso, é necessário verificar se outros alertas são gerados para esse host. Em caso de dúvidas, pesquise esse host na internet para verificar sua autenticidade."
+        },
+        "IOC-03": {
+            "title": "Uma solicitação de DNS foi feita para {}, marcado como {}.",
+            "description": "O nome de domínio {} visto na captura foi explicitamente marcado como malicioso. Isso indica que o dispositivo provavelmente foi comprometido e precisa ser analisado com cuidado."
+        },
+        "IOC-04": {
+            "title": "Uma solicitação de DNS foi feita para {}, marcado como {}.",
+            "description": "O nome de domínio {} visto na captura foi explicitamente marcado como um Tracker. Isso indica que um dos aplicativos ativos está rastreando sua localização."
+        },
+        "IOC-05": {
+            "title": "Uma solicitação de DNS foi feita para o domínio {}, que é um DNS gratuito.",
+            "description": "O nome de domínio {} está usando um serviço de DNS gratuito. Esse tipo de serviço é comumente usado por cibercriminosos ou agências de inteligência estatais no exercício de suas funções. É muito suspeito que aplicativos em execução em segundo plano usem esse tipo de serviço e isso deve ser analisado com cuidado."
+        },
+        "IOC-06": {
+            "title": "Uma solicitação de DNS foi feita para o domínio {}, que contém um TLD (domínio de nível superior) suspeito.",
+            "description": "O nome de domínio {} está usando um TLD suspeito ({}). Mesmo não sendo malicioso, esse TLD não genérico é frequentemente usado por cibercriminosos ou agências de inteligência estatais. Analise a reputação do domínio pesquisando-o na internet. Se outros alertas forem observados, considere esse host como muito suspeito."
+        },
+        "IOC-07": {
+            "title": "Um certificado associado a atividades de {} foi encontrado na comunicação para {}.",
+            "description": "O certificado ({}) associado a {} foi explicitamente marcado como malicioso. Isso indica que o dispositivo provavelmente foi comprometido e precisa de uma análise forense."
+        },
+        "IOC-08": {
+            "title": "Uma solicitação de HTTP foi feita para {}, marcado como {}.",
+            "description": "O nome de domínio {} visto na captura foi explicitamente marcado como malicioso. Isso indica que o dispositivo provavelmente foi comprometido e precisa ser analisado com cuidado."
+        },
+        "IOC-09": {
+            "title": "Uma solicitação de HTTP foi feita para o domínio {}, que é um DNS gratuito.",
+            "description": "O nome de domínio {} está usando um serviço de DNS gratuito. Esse tipo de serviço é comumente usado por cibercriminosos ou agências de inteligência estatais no exercício de suas funções. É muito suspeito que aplicativos em execução em segundo plano usem esse tipo de serviço e isso deve ser analisado com cuidado."
+        },
+        "IOC-10": {
+            "title": "Uma solicitação de HTTP foi feita para o domínio {}, que contém um TLD (domínio de nível superior) suspeito.",
+            "description": "O nome de domínio {} está usando um TLD suspeito ({}). Mesmo não sendo malicioso, esse TLD não genérico é frequentemente usado por cibercriminosos ou agências de inteligência estatais. Analise a reputação do domínio pesquisando-o na internet. Se outros alertas forem observados, considere esse host como muito suspeito."
+        },
+        "IOC-11": {
+            "title": "Conexão com {} ({}) que é referenciado como um nó TOR.",
+            "description": "O servidor {} é referenciado como um nó na rede de anonimização do TOR. O dispositivo analisado parece estar usando TOR ou se comunicando com um servidor configurado como um nó de entrada ou saída TOR. Alguns atacantes usam o TOR em seus servidores para cobrir seus rastros."
+        },
+        "IOC-12": {
+            "title": "Um aplicativo solicita um serviço legítimo que pode ter um uso duplo",
+            "description": "O servidor {} é usado para fins legítimos. Contudo, alguns atacantes podem usá- lo para interagir com os seus implantes. É aconselhável verificar se o dispositivo analisado contém um aplicativo legítimo que usa esse serviço."
+        },
+        "IOC-13": {
+            "title": "Pelo menos um aplicativo usa consultas DNS criptografadas.",
+            "description": "O servidor DNS over https {} foi contatado durante a captura. Isso parece indicar que pelo menos um aplicativo usa essa técnica para criptografar suas solicitações de DNS. Esse recurso limita os recursos de verificação do SpyGuard. Se esse recurso não estiver ativado no dispositivo analisado, pode valer a pena descobrir qual aplicativo está usando esse método."
+        },
+        "ACT-01": {
+            "title": "O domínio {} está usando um servidor de nomes suspeito ({}).",
+            "description": "O nome de domínio {} está usando um servidor de nomes explicitamente marcado como associado a atividades maliciosas. Muitos cibercriminosos e agentes de inteligência estatais usam esse tipo de registradores porque isso permite pagamentos com criptomoedas e anônimos. É recomendável investigar esse domínio e o aplicativo em execução por meio de uma análise forense do telefone."
+        },
+        "ACT-02": {
+            "title": "O domínio {} foi criado recentemente ({} dias atrás).",
+            "description": "O nome de domínio {} é novo. Mesmo que isso não seja intrinsecamente malicioso, é bastante comum que os invasores configurem uma nova infraestrutura para cada campanha, o que pode levar ao uso de nomes de domínio recém-registrados."
+        },
+        "SSL-01": {
+            "title": "Conexão SSL feita em uma porta não padrão ({}) para {}",
+            "description": "Não é comum ver conexões SSL a partir de dispositivos móveis usando portas não padrão. Mesmo que a conexão pareça ser autêntica, é recomendável analisar a reputação de {} verificando pesquisando na internet o registro de domínio, o sistema autônomo associado e a data de criação."
+        },
+        "SSL-02": {
+            "title": "Uma conexão SSL com {} está usando um certificado gratuito.",
+            "description": "Certificados gratuitos, como o Let's Encrypt, são amplamente usados por servidores de comando e controle associados a arquivos maliciosos ou páginas de phishing. É recomendável analisar o host associado a esse certificado verificando o nome de domínio, a data de criação ou pesquisando sua reputação na internet."
+        },
+        "SSL-03": {
+            "title": "O certificado associado a {} é autoassinado.",
+            "description": "O uso de certificados autoassinados é comum na infraestrutura de invasores. É recomendável analisar o host {} que está associado a esse certificado verificando o nome e o registro de domínio (se houver), a data de criação e sua reputação na internet."
+        },
+        "SSL-04": {
+            "title": "O certificado associado a {} está vinculado a atividades maliciosas ({}).",
+            "description": "O certificado associado ao servidor {} foi explicitamente categorizado como malicioso. Seu dispositivo parece comprometido e precisa ser investigado por uma equipe profissional."
+        },
+        "SSL-05": {
+            "title": "A configuração SSL de {} está ligada à atividade maliciosa ({}).",
+            "description": "O hash JARM {} relacionado ao servidor foi explicitamente associado à atividade maliciosa. Seu dispositivo está possivelmente comprometido e precisa ser investigado por uma equipe profissional."
+        },
+        "ADV-01": {
+            "title": "Verifique os alertas para {}",
+            "description": "Verifique a reputação do host {}, este parece ser malicioso, pois acionou alertas para {} durante a sessão."
+        },
+        "SNORT-01": {
+            "title": "Regra do Suricata acionada: {}",
+            "description": "Uma regra de detecção de rede foi acionada. É provável que o dispositivo tenha sido comprometido ou apresente comportamento suspeito."
+        }
+    },
+    "report": {
+        "numbers": [
+            "um",
+            "dois",
+            "três",
+            "quatro",
+            "cinco",
+            "seis",
+            "sete",
+            "oito",
+            "nove"
+        ],
+        "suspect_title": "Comunicações suspeitas",
+        "uncat_title": "Comunicações não categorizadas",
+        "whitelist_title": "Comunicações permitidas",
+        "protocol": "Protocolo",
+        "domain": "Domínio",
+        "dst_ip": "Endereço IP do dst",
+        "dst_port": "Número da porta do dst",
+        "device_mac": "Endereço MAC do dispositivo",
+        "report_generated_on": "Relatório criado em",
+        "capture_duration": "Duração da captura",
+        "packets_number": "Número de pacotes",
+        "capture_sha1": "Captura SHA1",
+        "report_for_the_capture": "Relatório da captura",
+        "report_footer": "Este relatório foi gerado automaticamente por um dispositivo SpyGuard. Em caso de dúvidas, relatório de erros ou comentários, envie uma mensagem para contact@spyguard.io.",
+        "high_msg": "O dispositivo parece estar comprometido porque você tem {} alerta(s) crítico(s).",
+        "moderate_msg": "Você tem {} alerta(s) moderado(s), seu dispositivo pode estar comprometido. Analise-os com cuidado.",
+        "low_msg": "Você tem apenas {} alerta(s) leve(s), não deixe de verificá-los.",
+        "none_msg": "Tudo parece estar bem, zero alertas. Não deixe de verificar comunicações não categorizadas, se houver.",
+        "detection_methods": "Métodos de detecção",
+        "analysis_duration": "Tempo de análise",
+        "instance_uuid": "Instância do SpyGuard",
+        "seconds": "segunda(s)"
+    }
+}

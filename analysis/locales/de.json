@@ -1,0 +1,147 @@
+{
+    "alerts": {
+        "PROTO-01": {
+            "title": "Es besteht {} Kommunikationsverbindung zu {} außerhalb des lokalen Netzwerks.",
+            "description": "Das Protokoll {} wird häufig in internen Netzwerken verwendet. Bitte überprüfen Sie, ob der Host {} andere Warnungen verursacht hat, was auf bösartiges Verhalten hindeuten kann."
+        },
+        "PROTO-02": {
+            "title": "{} Verbindung zu {} zu einem Port größer als oder gleich {}.",
+            "description": "{} Verbindungen zu {} über den Port {} wurden erkannt. Die Verwendung eines nicht standardmäßigen Ports ist manchmal ein Merkmal für bösartige Aktivitäten. Wir empfehlen, die Reputation dieses Hosts zu überprüfen, indem Sie sich andere Warnungen ansehen und im Internet danach suchen."
+        },
+        "PROTO-03": {
+            "title": "Mit dem Host {} wurde per HTTP kommuniziert.",
+            "description": "Ihr Gerät hat mit dem Host {} über das unverschlüsselte HTTP-Protokoll kommuniziert. Auch wenn dieses Verhalten an sich nicht bösartig ist, ist es ungewöhnlich, dass von Smartphone-Anwendungen, die im Hintergrund laufen, HTTP-Kommunikationen ausgehen. Bitte überprüfen Sie die Reputation des Hosts anhand einer Internetsuche."
+        },
+        "PROTO-04": {
+            "title": "Mit dem Host {} wurde über einen nicht standardmäßigen Port ({}) per HTTP kommuniziert.",
+            "description": "Ihr Gerät hat mit dem Host {} über den Port {} über das unverschlüsselte HTTP-Protokoll kommuniziert. Dieses Verhalten ist recht ungewöhnlich. Bitte überprüfen Sie die Reputation des Hosts anhand einer Internetsuche."
+        },
+        "PROTO-05": {
+            "title": "Der Server {} wurde während der Sitzung nicht in einer DNS-Abfrage aufgelöst.",
+            "description": "Das bedeutet, dass der Server {} möglicherweise in keinen Domain-Namen aufgelöst wird oder dass die Auflösung bereits vom Gerät zwischengespeichert wurde. Wenn dieser Host in anderen Warnungen vorkommt, überprüfen Sie ihn bitte."
+        },
+        "IOC-01": {
+            "title": "Es wurde eine Verbindung zu {} hergestellt ({}), was als {} gekennzeichnet ist.",
+            "description": "Der Host {} wurde aufgrund bösartiger Aktivitäten explizit auf die Sperrliste gesetzt. Ihr Gerät ist wahrscheinlich kompromittiert und muss von IT-Sicherheitsexperten genauer untersucht werden."
+        },
+        "IOC-02": {
+            "title": "Kommunikation mit {} unter dem CIDR {}, der als {} gekennzeichnet ist.",
+            "description": "Der Server {} wird in einem Netzwerk gehostet, das für bösartige Aktivitäten bekannt ist. Auch wenn dieses Verhalten an sich nicht bösartig ist, müssen Sie überprüfen, ob dieser Host auch in anderen Warnungen erwähnt wird. Wenn Sie Zweifel haben, suchen Sie im Internet nach diesem Host, um zu sehen, ob er legitim ist."
+        },
+        "IOC-03": {
+            "title": "Es wurde eine DNS-Abfrage zu {} ausgeführt, was als {} gekennzeichnet ist.",
+            "description": "Der in der Aufnahme vorkommende Domain-Name {} wurde explizit als bösartig gekennzeichnet. Dies weist darauf hin, dass Ihr Gerät wahrscheinlich kompromittiert ist und eingehend untersucht werden muss."
+        },
+        "IOC-04": {
+            "title": "Es wurde eine DNS-Abfrage zu {} ausgeführt, was als {} gekennzeichnet ist.",
+            "description": "Der in der Aufnahme vorkommende Domain-Name {} wurde explizit als Tracker gekennzeichnet. Dies weist darauf hin, dass eine der aktiven Apps Ihren Standort geografisch verfolgt."
+        },
+        "IOC-05": {
+            "title": "Es wurde eine DNS-Abfrage zur Domain {} ausgeführt, die einen Free-DNS-Dienst nutzt.",
+            "description": "Der Domain-Name {} nutzt einen Free-DNS-Dienst. Dienste dieser Art werden häufig von Cyberkriminellen oder staatlich unterstützten Angreifern bei ihren Operationen genutzt. Es ist sehr verdächtig, dass eine im Hintergrund laufende Anwendung einen solchen Dienst verwendet. Bitte untersuchen Sie das näher."
+        },
+        "IOC-06": {
+            "title": "Es wurde eine DNS-Abfrage zur Domain {} ausgeführt, die eine verdächtige TLD enthält.",
+            "description": "Der Domain-Name {} nutzt eine verdächtige Top-Level-Domain ({}). Diese nicht-generische TLD ist zwar selbst nicht bösartig, wird aber häufig von Cyberkriminellen und bei staatlich unterstützten Operationen verwendet. Bitte überprüfen Sie diese Domain anhand einer Internetsuche. Wenn dieser Host in anderen Warnungen erwähnt wird, können Sie ihn als sehr verdächtig betrachten."
+        },
+        "IOC-07": {
+            "title": "Ein Zertifikat, das mit {} Aktivitäten verknüpft ist, wurde in der Kommunikationsverbindung zu {} gefunden.",
+            "description": "Das Zertifikat ({}), das mit {} verknüpft ist, wurde explizit als bösartig gekennzeichnet. Dies weist darauf hin, dass Ihr Gerät wahrscheinlich kompromittiert ist und eine forensische Analyse benötigt."
+        },
+        "IOC-08": {
+            "title": "Es wurde eine HTTP-Abfrage zu {} ausgeführt, was als {} gekennzeichnet ist.",
+            "description": "Der in der Aufnahme vorkommende Domain-Name {} wurde explizit als bösartig gekennzeichnet. Dies weist darauf hin, dass Ihr Gerät wahrscheinlich kompromittiert ist und eingehend untersucht werden muss."
+        },
+        "IOC-09": {
+            "title": "Es wurde eine HTTP-Abfrage zur Domain {} ausgeführt, die einen Free-DNS-Dienst nutzt.",
+            "description": "Der Domain-Name {} nutzt einen Free-DNS-Dienst. Dienste dieser Art werden häufig von Cyberkriminellen oder staatlich unterstützten Angreifern bei ihren Operationen genutzt. Es ist sehr verdächtig, dass eine im Hintergrund laufende Anwendung einen solchen Dienst verwendet. Bitte untersuchen Sie das näher."
+        },
+        "IOC-10": {
+            "title": "Es wurde eine HTTP-Abfrage zur Domain {} ausgeführt, die eine verdächtige TLD enthält.",
+            "description": "Der Domain-Name {} nutzt eine verdächtige Top-Level-Domain ({}). Diese nicht-generische TLD ist zwar selbst nicht bösartig, wird aber häufig von Cyberkriminellen und bei staatlich unterstützten Operationen verwendet. Bitte überprüfen Sie diese Domain anhand einer Internetsuche. Wenn dieser Host in anderen Warnungen erwähnt wird, können Sie ihn als sehr verdächtig betrachten."
+        },
+        "IOC-11": {
+            "title": "Verbindung zu {} ({}), die als TOR-Knoten referenziert wird.",
+            "description": "Der Server {} wird als Knoten im TOR-Anonymisierungsnetzwerk referenziert. Das analysierte Gerät scheint TOR zu verwenden oder mit einem Server zu kommunizieren, der als TOR-Eingangs- oder -Ausgangsknoten konfiguriert ist. Einige Angreifer nutzen TOR auf ihren Servern, um ihre Spuren zu verwischen."
+        },
+        "IOC-12": {
+            "title": "Eine Anwendung fordert einen legitimen Dienst an, der möglicherweise doppelt verwendet wird."
+            "description": "Der Server {} wird für legitime Zwecke verwendet. Einige Angreifer können ihn jedoch verwenden, um mit ihren Implantaten zu interagieren. Es wird empfohlen, zu überprüfen, ob das analysierte Gerät eine legitime Anwendung enthält, die diesen Dienst verwendet."
+        },
+        "IOC-13": {
+            "title": "Mindestens eine Anwendung verwendet verschlüsselte DNS-Abfragen."
+            "description": "Der DNS over HTTPs server {} wurde während der Erfassung kontaktiert. Dies scheint darauf hinzuweisen, dass mindestens eine Anwendung diese Technik verwendet, um ihre DNS-Anfragen zu verschlüsseln. Diese Funktion schränkt die Scanfunktionen von SpyGuard ein. Wenn diese Funktion auf dem analysierten Gerät nicht aktiviert ist, kann es sich lohnen, herauszufinden, welche App diese Methode verwendet."
+        },
+        "ACT-01": {
+            "title": "Die Domain {} nutzt einen verdächtigen Nameserver ({}).",
+            "description": "Der Domain-Name {} nutzt einen Nameserver, der explizit mit bösartigen Aktivitäten in Verbindung gebracht wird. Viele Cyberkriminelle und staatlich unterstützte Angreifer nutzen Registrare dieser Art, weil sie Kryptowährungen und anonyme Zahlungen zulassen. Es wird empfohlen, diese Domain und die damit verknüpfte laufende Anwendung mithilfe einer forensischen Analyse des Telefons näher zu untersuchen."
+        },
+        "ACT-02": {
+            "title": "Die Domain {} wurde vor kurzem (vor {} Tagen) erstellt.",
+            "description": "Der Domainname {} ist neu. Auch wenn dies nicht von Natur aus böswillig ist, richten Angreifer häufig für jede Kampagne eine neue Infrastruktur ein, die zur Verwendung neu registrierter Domainnamen führen kann."
+        },
+        "SSL-01": {
+            "title": "SSL-Verbindung über einen nicht standardmäßigen Port ({})",
+            "description": "Es ist ungewöhnlich, dass SSL-Verbindungen von Smartphones über einen nicht standardmäßigen Port hergestellt werden. Das kann durchaus legitim sein, aber wir empfehlen dennoch, die Reputation von {} zu überprüfen. Sehen Sie sich dazu den entsprechenden WHOIS-Eintrag, das zugehörige autonome System und das Erstellungsdatum an und suchen Sie im Internet danach."
+        },
+        "SSL-02": {
+            "title": "Eine SSL-Verbindung zu {} verwendet ein kostenloses Zertifikat.",
+            "description": "Kostenlose Zertifikate – wie z. B. Let's Encrypt – werden gerne von Command-and-Control-Servern verwendet, die mit bösartigen Implants und Phishing-Webseiten in Verbindung stehen. Wir empfehlen, den mit diesem Zertifikat verknüpften Host zu überprüfen. Sehen Sie sich dazu seinen Domain-Namen und das Erstellungsdatum an oder überprüfen Sie die Reputation des Hosts im Internet."
+        },
+        "SSL-03": {
+            "title": "Das mit {} verknüpfte Zertifikat ist selbstsigniert.",
+            "description": "Die Verwendung von selbstsignierten Zertifikaten ist in der Infrastruktur von Angreifern weit verbreitet. Wir empfehlen, den mit diesem Zertifikat verknüpften Host {} zu überprüfen. Sehen Sie sich dazu seinen Domain-Namen (falls vorhanden), den WHOIS-Eintrag und das Erstellungsdatum an und überprüfen Sie die Reputation des Hosts im Internet."
+        },
+        "SSL-04": {
+            "title": "Das mit {} verknüpfte Zertifikat ist mit böswilligen Aktivitäten ({})" verknüpft,
+            "description": "Das mit server {} verknüpfte Zertifikat wurde explizit als bösartig eingestuft. Ihr Gerät sieht kompromittiert aus und muss von einem professionellen Team weiter untersucht werden."
+        },
+        "SSL-05": {
+            "title": "Die SSL-Konfiguration von {} ist mit bösartigen Aktivitäten ({})" verknüpft,
+            "description": "Der serverbezogene JARM-Hash {} wurde explizit mit bösartigen Aktivitäten verknüpft. Ihr Gerät ist möglicherweise kompromittiert und muss von einem professionellen Team weiter untersucht werden."
+        },
+        "ADV-01": {
+            "title": "Überprüfen Sie die Warnungen für {}",
+            "description": "Bitte überprüfen Sie die Reputation des Hosts {}. Dieser scheint bösartig zu sein, da er während der Sitzung {} Warnungen verursacht hat."
+        },
+        "SNORT-01": {
+            "title": "Suricata-Regel ausgelöst: {}",
+            "description": "Eine Netzwerkerkennungsregel wurde ausgelöst. Es ist wahrscheinlich, dass Ihr Gerät kompromittiert wurde oder verdächtiges Verhalten aufweist."
+        }
+    },
+    "report": {
+        "numbers": [
+            "eine",
+            "zwei",
+            "drei",
+            "vier",
+            "fünf",
+            "sechs",
+            "sieben",
+            "acht",
+            "neun"
+        ],
+        "suspect_title": "Verdächtige Kommunikationsverbindungen",
+        "uncat_title": "Kommunikationsverbindungen ohne Kategorie",
+        "whitelist_title": "Kommunikationsverbindungen auf der Zulassungsliste",
+        "protocol": "Protokoll",
+        "domain": "Domain",
+        "dst_ip": "Ziel-IP-Adresse",
+        "dst_port": "Ziel-Portnummer",
+        "device_mac": "MAC-Adresse des Geräts",
+        "report_generated_on": "Bericht erstellt am",
+        "capture_duration": "Aufnahmedauer",
+        "packets_number": "Anzahl der Pakete",
+        "capture_sha1": "SHA1-Aufnahme",
+        "report_for_the_capture": "Bericht zur Aufnahme",
+        "report_footer": "Dieser Bericht wurde von einem SpyGuard-Gerät automatisch erstellt. Wenn Sie Fragen haben, Bugs melden oder Feedback geben möchten, kontaktieren Sie uns unter contact@spyguard.io.",
+        "high_msg": "Ihr Gerät scheint kompromittiert zu sein, da Sie {} Warnung(en) der Stufe \"Hoch\" haben.",
+        "moderate_msg": "Sie haben {} Warnungen der Stufe \"Mittel\": Ihr Gerät könnte kompromittiert sein. Bitte sehen Sie sich die Warnungen sorgfältig an.",
+        "low_msg": "Sie haben nur {} Warnungen der Stufe \"Niedrig\": Überprüfen Sie sie gerne.",
+        "none_msg": "Alles sieht gut aus – kein Warnungen. Sehen Sie sich gerne auch die nicht kategorisierten Kommunikationsverbindungen an, falls welche vorhanden sind.",
+        "detection_methods": "Nachweismethoden",
+        "analysis_duration": "Analysezeit",
+        "instance_uuid": "Instanz von SpyGuard",
+        "seconds" : "zweite"
+    }
+}

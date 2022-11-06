@@ -1,0 +1,91 @@
+{
+    "home": {
+        "welcome_msg": "Benvenuto in SpyGuard.",
+        "help_msg": "Verrà fornita assistenza per il controllo del dispositivo.",
+        "start_btn": "Cominciamo!"
+    },
+    "analysis": {
+        "question": "Analizzare le comunicazioni acquisite?",
+        "no_btn": "No, è sufficiente salvarle",
+        "yes_btn": "Sì, va bene",
+        "please_wait_msg": "Analisi in corso. Attendere...",
+        "some_time_msg": "Sì, l'operazione può richiedere un po' di tempo..."
+    },
+    "capture": {
+        "intercept_coms_msg": "Intercettazione delle comunicazioni di ",
+        "stop_btn": "Interrompi acquisizione"
+    },
+    "generate-ap": {
+        "network_name": "Nome della rete",
+        "network_password": "Password della rete",
+        "tap_msg": "Toccare il riquadro bianco per generare una nuova rete.",
+        "generate_ap_msg": "Viene generata una rete temporanea.",
+        "error_msg1": "Si sono verificati alcuni problemi <br>durante la creazione del punto di accesso.",
+        "error_msg2": "Verificare di disporre di due interfacce Wi-Fi nel dispositivo<br> e riprovare eseguendo il riavvio.",
+        "restart_btn": "Riavvia il dispositivo"
+    },
+    "report": {
+        "show_full_report": "Mostra il rapporto completo",
+        "start_new_capture": "Avvia una nuova acquisizione",
+        "save_capture": "Salva acquisizione",
+        "save": "Salvare",
+        "print": "Stampare",
+        "numbers": [
+            "zero",
+            "uno",
+            "due",
+            "tre",
+            "quattro",
+            "cinque",
+            "sei",
+            "sette",
+            "otto",
+            "nove",
+            "dieci",
+            "undici"
+        ],
+        "stalkerware_msg": "Il dispositivo è compromesso da<br>uno stalkerware, controllare il rapporto.",
+        "location_msg": "Un'applicazione condivide la<br /> geolocalizzazione attuale con terze parti.",
+        "fine_msg": "Sembra tutto a posto, <br /> non sono presenti avvisi.",
+        "high_msg": "È presente {nb} avviso con priorità elevata,<br /> il dispositivo sembra compromesso.",
+        "moderate_msg": "Sono presenti {nb} avvisi con priorità moderata, è possibile che il dispositivo sia compromesso.",
+        "low_msg": "Sono presenti solo {nb} avvisi con priorità bassa<br /> da controllare.",
+        "save_report": "Salva il rapporto",
+        "report_of": "Rapporto di",
+        "detection_methods": "Metodi di rilevamento:",
+        "indicators": "Indicatori",
+        "heuristics": "Anomalie",
+        "active": "Attiva",
+        "pcap_sha1": "SHA1 della cattura:",
+        "capture_started": "Cattura è iniziata su:",
+        "capture_ended": "Cattura terminata su:",
+        "high": "elevata",
+        "moderate": "moderata",
+        "low": "bassa",
+        "uncat_coms_table" : "Comunicazioni non categorizzate",
+        "protocol" : "Protocollo",
+        "domain_name" : "Dominio",
+        "ip_address" : "Indirizzo IP",
+        "port" : "Porto"
+    },
+    "wifi-select": {
+        "wifi_connected": "Wi-Fi collegato",
+        "wifi_not_connected": "Wi-Fi non connesso. Riprovare.",
+        "wifi_password": "Password",
+        "connect_to_it": "Connettersi"
+    },
+    "save-capture": {
+        "please_connect": "Collegare una chiave USB per salvare l'acquisizione.",
+        "we_are_saving": "Salvataggio dell'acquisizione in corso.",
+        "tap_msg": "È possible toccare la chiave USB per avviare una nuova acquisizione.",
+        "capture_download": "Il download dell'acquisizione sta per iniziare...",
+        "start_capture_btn": "Avvia un'altra acquisizione"
+    },
+    "modals": {
+        "want_to_quit": "Vuoi chiudere la app?",
+        "no_go_back": "No, tornare",
+        "yes_continue": "Sì, continuare",
+        "please_give_the_password": "Inserire la password della rete:",
+        "want_to_whitelist" : "Vuoi aggiungere <i class='ioc'>{host}</i> alla lista bianca <br /> per le prossime analisi?"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "home": {
+        "welcome_msg": "Bem vindo(a) ao SpyGuard.",
+        "help_msg": "Ajudaremos você a verificar o dispositivo.",
+        "start_btn": "Vamos começar!"
+    },
+    "analysis": {
+        "question": "Deseja analisar as comunicações capturadas?",
+        "no_btn": "Não, somente salvá-las",
+        "yes_btn": "Sim, vamos lá",
+        "please_wait_msg": "Aguarde enquanto realizamos a análise...",
+        "some_time_msg": "Sim, isso pode demorar um pouco..."
+    },
+    "capture": {
+        "intercept_coms_msg": "Interceptando as comunicações de ",
+        "stop_btn": "Parar a captura"
+    },
+    "generate-ap": {
+        "network_name": "Nome da rede",
+        "network_password": "Senha da rede",
+        "tap_msg": "Toque no quadro branco para criar uma nova rede.",
+        "generate_ap_msg": "Geramos uma rede temporária para você.",
+        "error_msg1": "Infelizmente, tivemos alguns problemas <br> durante a criação do AP.",
+        "error_msg2": "Verifique se você possui duas interfaces Wi-Fi no dispositivo<br> e tente novamente, reiniciando-o.",
+        "restart_btn": "Reiniciar o dispositivo"
+    },
+    "report": {
+        "show_full_report": "Mostrar o relatório completo",
+        "start_new_capture": "Iniciar nova captura",
+        "save_capture": "Salvar a captura",
+        "save": "Salvar",
+        "print": "Imprimir",
+        "numbers": [
+            "zero",
+            "um",
+            "dois",
+            "três",
+            "quatro",
+            "cinco",
+            "seis",
+            "sete",
+            "oito",
+            "nove",
+            "dez",
+            "onze"
+        ],
+        "stalkerware_msg": "Seu dispositivo foi comprometido por<br /> um stalkerware. Verifique o relatório.",
+        "location_msg": "Um aplicativo está compartilhando sua <br /> geolocalização com um terceiro.",
+        "fine_msg": "Tudo parece estar bem, zero alertas.",
+        "high_msg": "Você tem {nb} alerta crítico,<br /> o dispositivo parece estar comprometido.",
+        "moderate_msg": "Você tem {nb} alertas moderados,<br /> o dispositivo pode estar comprometido.",
+        "low_msg": "Você tem apenas {nb} alertas leves,<br /> não deixe de verificá-los.",
+        "save_report": "Salvar o relatório",
+        "report_of": "Relatório de",
+        "detection_methods": "Métodos de detecção:",
+        "indicators": "Indicadores",
+        "heuristics": "Anomalias",
+        "active": "Activa",
+        "pcap_sha1": "SHA1 da captura:",
+        "capture_started": "Captura iniciada em:",
+        "capture_ended": "Captura terminou em:",
+        "high": "crítico",
+        "moderate": "moderado",
+        "low": "leve",
+        "uncat_coms_table" : "Comunicações não categorizadas",
+        "protocol" : "Protocolo",
+        "domain_name" : "Domínio",
+        "ip_address": "Endereço IP:",
+        "port" : "Porto"
+    },
+    "wifi-select": {
+        "wifi_connected": "Wi-Fi conectado",
+        "wifi_not_connected": "Wi-Fi desconectado. Tente novamente.",
+        "wifi_password": "Senha do Wi-Fi",
+        "connect_to_it": "Conectar"
+    },
+    "save-capture": {
+        "please_connect": "Conecte uma chave USB para salvar a captura.",
+        "we_are_saving": "Estamos salvando a captura.",
+        "tap_msg": "Toque na chave USB para iniciar uma nova captura.",
+        "capture_download": "O download da captura vai começar...",
+        "start_capture_btn": "Iniciar nova captura"
+    },
+    "modals": {
+        "want_to_quit": "Deseja fechar o aplicativo?",
+        "no_go_back": "Não, voltar",
+        "yes_continue": "Sim, continuar",
+        "please_give_the_password": "Indicar a senha da rede: ",
+        "want_to_whitelist" : "Você quer adicionar <i class='ioc'>{host}</i> à lista branca <br /> para as próximas análises?"
+    }
+}
