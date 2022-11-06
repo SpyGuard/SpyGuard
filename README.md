@@ -39,7 +39,7 @@ You can use SpyGuard in a commercial product. However, you can't use SpyGuard as
 
 ### Contact
 
-If you need an express help or specific demand, do not hesitate to contact [the author](https://twitter.com/felixaime) via Twitter or by sending an email at spyguard@protonmail.com. A bug? Do not hesitate to open a [new issue](https://github.com/SpyGuard/spyguard/issues).
+If you need an express help or have a specific demand/question, do not hesitate to contact [the author](https://twitter.com/felixaime) via Twitter or by sending an email at spyguard@protonmail.com. A bug? Do not hesitate to open a [new issue](https://github.com/SpyGuard/spyguard/issues).
 
 ### They have contributed to or helped this project
 
