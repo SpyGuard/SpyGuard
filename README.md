@@ -46,6 +46,8 @@ If you need an express help or specific developements for your own needs, do not
 <p float="left">
   <a href="https://echap.eu.org"><img src="https://user-images.githubusercontent.com/25131750/200112980-80adc6e6-c922-471d-ab50-9821b2ed484c.png" width="150" /></a>&nbsp;&nbsp;
   <a href="https://www.sekoia.io"><img src="https://user-images.githubusercontent.com/25131750/200112989-f18c29a7-c947-4eb6-95e4-997fc97c5b4d.png" height="90" /></a>
+  <a href="https://www.lapostegroupe.com"><img src="https://user-images.githubusercontent.com/25131750/200187728-d67c6139-01af-4e64-9f32-096c028db6e1.png" height="90" /></a>
+
 </p>
 
 To work, Spyguard is using a lot of awesome opensource projects, libraries, and fonts, kudos to them:
