@@ -7,6 +7,7 @@ from app.classes.network import Network
 
 from os import mkdir, path, chmod
 import sys
+import re
 import json
 import random
 
@@ -151,7 +152,14 @@ class Capture(object):
         Returns:
             bool: operation status.
         """
-        rules = [r[0] for r in get_iocs("snort")]
+        sid = 1000000
+        rules = []
+        
+        for rule in get_iocs("snort"):
+            sid = sid + 1
+            rule = re.sub("sid:[0-9a-zA-Z]+", f"sid:{sid}", rule[0] )
+            rules.append(rule)
+
         try:
             with open(self.rules_file, "w+") as f:
                 f.write("\n".join(rules))
