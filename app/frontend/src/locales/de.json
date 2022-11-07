@@ -21,8 +21,7 @@
         "tap_msg": "Tippen Sie auf den weißen Rahmen, um ein neues Netzwerk zu erstellen.",
         "generate_ap_msg": "Wir erstellen ein temporäres Netzwerk für Sie.",
         "error_msg1": "Leider sind während der AP-Erstellung <br>einige Fehler aufgetreten.",
-        "error_msg2": "Bitte stellen Sie sicher, dass Ihr Gerät zwei WLAN-Schnittstellen besitzt,<br> und starten Sie es neu, um es erneut zu versuchen.",
-        "restart_btn": "Gerät neu starten"
+        "error_msg2": "Bitte überprüfen Sie, ob Sie die richtigen <br /> Netzwerkschnittstellen im Backend konfiguriert haben."
     },
     "report": {
         "show_full_report": "Vollständigen Bericht anzeigen",

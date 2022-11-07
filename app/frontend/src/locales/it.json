@@ -21,8 +21,7 @@
         "tap_msg": "Toccare il riquadro bianco per generare una nuova rete.",
         "generate_ap_msg": "Viene generata una rete temporanea.",
         "error_msg1": "Si sono verificati alcuni problemi <br>durante la creazione del punto di accesso.",
-        "error_msg2": "Verificare di disporre di due interfacce Wi-Fi nel dispositivo<br> e riprovare eseguendo il riavvio.",
-        "restart_btn": "Riavvia il dispositivo"
+        "error_msg2": "Controlla di aver configurato le interfacce di rete <br /> giuste nel back-end."
     },
     "report": {
         "show_full_report": "Mostra il rapporto completo",

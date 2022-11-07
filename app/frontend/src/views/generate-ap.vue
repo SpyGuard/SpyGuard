@@ -41,7 +41,6 @@
                     <span v-html="$t('generate-ap.error_msg2')"></span>
                     <br /><br /> 
                 </p>
-                <button v-if="reboot_option" class="btn" v-on:click="reboot()">{{ $t("generate-ap.restart_btn") }}</button>
             </div>
         </div>
     </div>

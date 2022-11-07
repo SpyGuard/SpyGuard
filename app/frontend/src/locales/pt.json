@@ -21,8 +21,7 @@
         "tap_msg": "Toque no quadro branco para criar uma nova rede.",
         "generate_ap_msg": "Geramos uma rede temporária para você.",
         "error_msg1": "Infelizmente, tivemos alguns problemas <br> durante a criação do AP.",
-        "error_msg2": "Verifique se você possui duas interfaces Wi-Fi no dispositivo<br> e tente novamente, reiniciando-o.",
-        "restart_btn": "Reiniciar o dispositivo"
+        "error_msg2": "Verifique se você configurou as interfaces de rede <br /> corretas no back-end."
     },
     "report": {
         "show_full_report": "Mostrar o relatório completo",

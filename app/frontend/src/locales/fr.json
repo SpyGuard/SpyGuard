@@ -21,8 +21,7 @@
         "tap_msg": "Appuyez sur le cadre blanc pour générer un nouveau réseau.",
         "generate_ap_msg": "Nous générons un réseau Wi-Fi éphémère.",
         "error_msg1": "Malheureusement, nous rencontrons des problèmes <br />lors de la création du point d'accès.",
-        "error_msg2": "Veuillez vérifier que vous disposez de <br /> deux interfaces WiFi sur votre appareil.",
-        "restart_btn": "Restart the device"
+        "error_msg2": "Veuillez vérifier avez renseigné les bonnes <br /> interfaces réseau dans le back-end."
     },
     "report": {
         "show_full_report": "Lire le rapport complet",
