@@ -80,4 +80,4 @@ To work, Spyguard is using a lot of awesome opensource projects, libraries, and 
 [OpenSSL](https://www.openssl.org),
 [Spectre CSS](https://picturepan2.github.io/spectre/).
 
-Icons and design created via [Figma](https://www.figma.com).
+Icons and design created via [Figma](https://www.figma.com), list of active TOR nodes taken from [Dan.me.uk](https://www.dan.me.uk/tornodes)
