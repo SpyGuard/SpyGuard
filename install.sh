@@ -159,6 +159,8 @@ install_package() {
        apt-get install -y dnsutils
     elif [[ $1 == "pip" ]]; then
        apt-get install -y python3-pip
+    elif [[ $1 == "arp" ]]; then
+       apt-get install -y net-tools
     fi
 }
 
@@ -169,7 +171,8 @@ check_dependencies() {
          "/usr/bin/dig"
          "/usr/bin/suricata"
          "/usr/bin/sqlite3"
-         "/usr/bin/pip")
+         "/usr/bin/pip",
+         "/usr/sbin/arp")
 
    echo -e "\e[39m[+] Checking dependencies...\e[39m"
    for bin in "${bins[@]}"
