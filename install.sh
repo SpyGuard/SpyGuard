@@ -153,7 +153,7 @@ change_hostname() {
 
 install_package() {
    # Install associated packages by using aptitude.
-    if [[ $1 == "tshark" || $1 == "sqlite3" || $1 == "suricata" || $1 == "net-tools" ]]; then
+    if [[ $1 == "tshark" || $1 == "sqlite3" || $1 == "suricata" ]]; then
        apt install $1 -y
     elif [[ $1 == "dig" ]]; then
        apt-get install -y dnsutils
