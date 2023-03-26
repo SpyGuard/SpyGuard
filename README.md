@@ -20,6 +20,8 @@ Once installed, you can go to the backend interface located at `https://localhos
 > Please check prior the installation that your Linux distribution is using `nmcli` to manage networks. If you want to install it on a Raspberry Pi
 > you need to activate it via the `raspi-config` interface.
 
+The frontend is available at the URL `https://localhost:8000`.
+
 ### Smartphone analysis best practices 
 
 * Do the interception in a public place (library, restaurant...) or common place (office, home...); 
