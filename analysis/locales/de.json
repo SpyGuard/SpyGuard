@@ -93,11 +93,11 @@
             "description": "Die Verwendung von selbstsignierten Zertifikaten ist in der Infrastruktur von Angreifern weit verbreitet. Wir empfehlen, den mit diesem Zertifikat verknüpften Host {} zu überprüfen. Sehen Sie sich dazu seinen Domain-Namen (falls vorhanden), den WHOIS-Eintrag und das Erstellungsdatum an und überprüfen Sie die Reputation des Hosts im Internet."
         },
         "SSL-04": {
-            "title": "Das mit {} verknüpfte Zertifikat ist mit böswilligen Aktivitäten ({})" verknüpft,
+            "title": "Das mit {} verknüpfte Zertifikat ist mit böswilligen Aktivitäten ({})",
             "description": "Das mit server {} verknüpfte Zertifikat wurde explizit als bösartig eingestuft. Ihr Gerät sieht kompromittiert aus und muss von einem professionellen Team weiter untersucht werden."
         },
         "SSL-05": {
-            "title": "Die SSL-Konfiguration von {} ist mit bösartigen Aktivitäten ({})" verknüpft,
+            "title": "Die SSL-Konfiguration von {} ist mit bösartigen Aktivitäten ({})",
             "description": "Der serverbezogene JARM-Hash {} wurde explizit mit bösartigen Aktivitäten verknüpft. Ihr Gerät ist möglicherweise kompromittiert und muss von einem professionellen Team weiter untersucht werden."
         },
         "ADV-01": {
