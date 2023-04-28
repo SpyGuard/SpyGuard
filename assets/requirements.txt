@@ -1,9 +1,12 @@
 ipwhois==1.2.0
+markupsafe==2.0.1
+werkzeug==1.0.1
+pyOpenSSL==23.1.1
 pydig==0.4.0
 pymisp==2.4.165.1
 netaddr==0.8.0
 pyyaml==5.3.1
-flask==1.1.2
+flask==1.1.4
 flask_httpauth==4.7.0
 pyjwt==1.7.1
 sqlalchemy==1.4.44
