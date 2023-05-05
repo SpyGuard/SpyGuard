@@ -27497,6 +27497,42 @@
             "tag": "apt",
             "tlp": "white",
             "value": "zshirts.in"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "84.234.96.117"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "192.99.251.54"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "192.99.251.51"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "192.99.251.50"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "192.99.251.49"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "149.56.92.127"
         }
     ]
 }
