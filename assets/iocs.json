@@ -28145,6 +28145,12 @@
             "tag": "apt",
             "tlp": "white",
             "value": "elwatananews.com"
+        },
+        {
+            "type": "domain",
+            "tag": "spyware",
+            "tlp": "white",
+            "value": "androidtelemetry.com"
         }
     ]
 }
