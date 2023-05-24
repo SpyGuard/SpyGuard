@@ -18,7 +18,7 @@ cd spyguard && sudo bash install.sh
 Once installed, you can go to the backend interface located at `https://localhost:8443` to manage the device and setup the right network interfaces to get it working. Please look at the [dedicated wiki page](https://github.com/SpyGuard/spyguard/wiki/Installing-SpyGuard) to get some tips regarding it.
 
 > Please check prior the installation that your Linux distribution is using `nmcli` to manage networks. If you want to install it on a Raspberry Pi
-> you need to activate it via the `raspi-config` interface.
+> you need to activate it via the `raspi-config` interface prior Spyguard installation.
 
 The frontend is available at the URL `https://localhost:8000`.
 
