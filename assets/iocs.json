@@ -28151,6 +28151,102 @@
             "tag": "spyware",
             "tlp": "white",
             "value": "androidtelemetry.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "addatamarket.net"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "backuprabbit.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "businessvideonews.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "cloudsponcer.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "datamarketplace.net"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "mobilegamerstats.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "snoweeanalytics.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "tagclick-cdn.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "topographyupdates.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "unlimitedteacup.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "virtuallaughing.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "web-trackers.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "growthtransport.com"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "anstv.net"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "ans7tv.net"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "toppull.net"
         }
     ]
 }
