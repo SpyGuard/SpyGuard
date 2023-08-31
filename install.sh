@@ -157,7 +157,7 @@ install_package() {
        apt install $1 -y
     elif [[ $1 == "dig" ]]; then
        apt-get install -y dnsutils
-    elif [[ $1 == "pip" ]]; then
+    elif [[ $1 == "pip3" ]]; then
        apt-get install -y python3-pip
     elif [[ $1 == "arp" ]]; then
        apt-get install -y net-tools
