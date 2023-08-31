@@ -35,7 +35,7 @@ class Network(object):
         ctx = { "internet": self.check_internet() }
 
         for iface in ni.interfaces():
-            if iface != self.iface_in and iface.startswith(("wl", "en", "et")):
+            if iface != self.iface_in and iface.startswith(("wl", "en", "et", "ww")):
                 addrs = ni.ifaddresses(iface)
                 try:
                     ctx["ip_out"] = addrs[ni.AF_INET][0]["addr"]
