@@ -3,7 +3,7 @@ pydig==0.4.0
 pymisp==2.4.165.1
 netaddr==0.8.0
 pyyaml==5.3.1
-flask==1.1.2
+flask==2.3.3
 flask_httpauth==4.7.0
 pyjwt==1.7.1
 sqlalchemy==1.4.44
@@ -15,3 +15,4 @@ weasyprint==57.1
 python-whois==0.8.0
 publicsuffix2==2.20191221
 six==1.16.0
+pyOpenSSL==23.2.0
