@@ -17,6 +17,7 @@ cd spyguard && sudo bash install.sh
 
 Once installed, you can go to the backend interface located at `https://localhost:8443` to manage the device and setup the right network interfaces to get it working. Please look at the [dedicated wiki page](https://github.com/SpyGuard/spyguard/wiki/Installing-SpyGuard) to get some tips regarding it.
 
+> [!WARNING]
 > Please check prior the installation that your Linux distribution is using `nmcli` to manage networks. If you want to install it on a Raspberry Pi
 > you need to activate it via the `raspi-config` interface prior Spyguard installation.
 
@@ -32,6 +33,7 @@ The frontend is available at the URL `https://localhost:8000`.
 
 The indicators of compromise (IOCs) linked to stalkerware are now fully managed by [ECHAP](https://echap.eu.org), a French association working against  cyberviolence. Even though stalkerware still remains a threat, remember that most of digital violence and surveillance is done by using simple means, such as hacking cloud & mail accounts. Therefore, we encourage you to consult the [ECHAP guides](https://echap.eu.org/ressources/) and apply their advice to your digital life alongside of device checks.
 
+> [!IMPORTANT]
 > It is worth mentioning that the IOCs are distributed under the **Creative Common BY-NC-SA** licence.
 > This imply a **non commercial use** of them. Please respect this licence and ask ECHAP for any question related to that.
 
