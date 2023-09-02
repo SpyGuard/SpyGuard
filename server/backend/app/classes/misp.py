@@ -6,7 +6,7 @@ from app.db.models import MISPInst
 from app.definitions import definitions as defs
 
 from sqlalchemy.sql import exists
-from flask import escape
+from markupsafe import escape
 from pymisp import PyMISP
 import re
 import time

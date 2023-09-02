@@ -5,7 +5,7 @@ from app import db
 from app.db.models import Whitelist
 from sqlalchemy.sql import exists
 from app.definitions import definitions
-from flask import escape
+from markupsafe import escape
 import re
 import time
 

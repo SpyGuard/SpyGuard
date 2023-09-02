@@ -7,7 +7,7 @@ from typing import Iterator
 
 import requests
 import yaml
-from flask import escape
+from markupsafe import escape
 from sqlalchemy.sql import exists
 
 
