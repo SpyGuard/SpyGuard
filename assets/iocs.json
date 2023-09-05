@@ -28247,6 +28247,48 @@
             "tag": "apt",
             "tlp": "white",
             "value": "toppull.net"
+        },
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "signalplus.org"
+        }, 
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "flygram.org"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "45.63.89.238"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "45.133.238.92"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "217.163.29.84"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "185.239.227.14"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "62.210.28.116"
         }
     ]
 }
