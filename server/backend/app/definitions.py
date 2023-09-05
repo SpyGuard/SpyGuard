@@ -72,8 +72,8 @@ definitions = {
             "name" : "Stalkerware"
         },
         { 
-            "tag"  : "suspect",
-            "name" : "Suspect"
+            "tag"  : "suspicious",
+            "name" : "Suspicious"
         },
         { 
             "tag"  : "malicious",
