@@ -62,6 +62,9 @@
         "moderate": "Mittel",
         "low": "Niedrig",
         "uncat_coms_table" : "Kommunikation nicht kategorisiert",
+        "whitelisted_coms_table" : "Kommunikation auf der Whitelist",
+        "no_alerts_title" : "Die Analyse der Kommunikation Ihres Geräts hat zu keinen Warnungen geführt.",
+        "no_alerts_subtext" : "Unten können Sie die von ihm während der Erfassung ausgegebenen Mitteilungen sehen.",
         "protocol" : "Protokoll",
         "domain_name" : "Domain",
         "ip_address": "IP-Adresse:",
@@ -77,7 +80,7 @@
         "please_connect": "Bitte schließen Sie einen USB-Stick an, um Ihre Aufnahme zu speichern.",
         "we_are_saving": "Wir speichern Ihre Aufnahme.",
         "tap_msg": "Sie können den USB-Stick antippen, um eine neue Aufnahme zu starten.",
-        "capture_download": "Der Download der Aufnahme beginnt …",
+        "capture_download": "Der Download der Aufnahme beginnt…",
         "start_capture_btn": "Noch eine Aufnahme starten"
     },
     "modals": {

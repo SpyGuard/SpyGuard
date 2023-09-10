@@ -1100,7 +1100,25 @@ ul {
     color: #cecece;
 }
 
+.no-alerts-to-show {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f8f9;
+    border: 1px dashed #eee;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #CFCFCF;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 
+.no-alerts-to-show>.main-text {
+    color: #CCC;
+}
+
+.no-alerts-to-show>.second-text {
+    font-size: 20px;
+}
 
 .icon-usb {
     background: url('../assets/icon_usb.svg') no-repeat 0 0;

@@ -29,7 +29,7 @@
                     <button class="btn btn-report-low" @click="show_report=true;results=false;">{{ $t("report.show_full_report") }}</button>
                 </div>
             </div>
-            <div v-else  class="none-wrapper">
+            <div v-else class="none-wrapper">
                 <div class="center">
                     <h1 class="warning-title" v-html="$t('report.fine_msg')"></h1>
                     <button class="btn btn-report-low-light"  @click="show_report=true;results=false;">{{ $t("report.show_full_report") }}</button>
@@ -48,41 +48,47 @@
                         {{ $t("report.detection_methods") }} {{ detection_methods }}
                     </div>
                 </div>
-                <ul class="alerts">
-                    <li class="alert" v-for="alert in alerts.high" :key="alert.message">
-                        <div class="alert-header">
-                            <span class="high-label">{{ $t("report.high") }}</span>
-                            <span class="alert-id">{{ alert.id }}</span> 
-                            <span class="btn-whitelist" v-on:click="add_whitelist(alert.host)">Add to the whitelist</span>
-                        </div>
-                        <div class="alert-body">
-                            <span class="title">{{ alert.title }}</span>
-                            <p class="description">{{ alert.description }}</p>
-                        </div>
-                    </li>
-                    <li class="alert" v-for="alert in alerts.moderate" :key="alert.message">
-                        <div class="alert-header">
-                            <span class="moderate-label">{{ $t("report.moderate") }}</span>
-                            <span class="alert-id">{{ alert.id }}</span> 
-                            <span class="btn-whitelist" v-on:click="add_whitelist(alert.host)">Add to the whitelist</span>
-                        </div>
-                        <div class="alert-body">
-                            <span class="title">{{ alert.title }}</span>
-                            <p class="description">{{ alert.description }}</p>
-                        </div>
-                    </li>
-                    <li class="alert" v-for="alert in alerts.low" :key="alert.message">
-                        <div class="alert-header">
-                            <span class="moderate-label">{{ $t("report.low") }}</span>
-                            <span class="alert-id">{{ alert.id }}</span> 
-                            <span class="btn-whitelist" v-on:click="add_whitelist(alert.host)">Add to the whitelist</span>
-                        </div>
-                        <div class="alert-body">
-                            <span class="title">{{ alert.title }}</span>
-                            <p class="description">{{ alert.description }}</p>
-                        </div>
-                    </li>
-                </ul>
+                <div v-if="alerts.length>0">
+                    <ul class="alerts">
+                        <li class="alert" v-for="alert in alerts.high" :key="alert.message">
+                            <div class="alert-header">
+                                <span class="high-label">{{ $t("report.high") }}</span>
+                                <span class="alert-id">{{ alert.id }}</span> 
+                                <span class="btn-whitelist" v-on:click="add_whitelist(alert.host)">Add to the whitelist</span>
+                            </div>
+                            <div class="alert-body">
+                                <span class="title">{{ alert.title }}</span>
+                                <p class="description">{{ alert.description }}</p>
+                            </div>
+                        </li>
+                        <li class="alert" v-for="alert in alerts.moderate" :key="alert.message">
+                            <div class="alert-header">
+                                <span class="moderate-label">{{ $t("report.moderate") }}</span>
+                                <span class="alert-id">{{ alert.id }}</span> 
+                                <span class="btn-whitelist" v-on:click="add_whitelist(alert.host)">Add to the whitelist</span>
+                            </div>
+                            <div class="alert-body">
+                                <span class="title">{{ alert.title }}</span>
+                                <p class="description">{{ alert.description }}</p>
+                            </div>
+                        </li>
+                        <li class="alert" v-for="alert in alerts.low" :key="alert.message">
+                            <div class="alert-header">
+                                <span class="moderate-label">{{ $t("report.low") }}</span>
+                                <span class="alert-id">{{ alert.id }}</span> 
+                                <span class="btn-whitelist" v-on:click="add_whitelist(alert.host)">Add to the whitelist</span>
+                            </div>
+                            <div class="alert-body">
+                                <span class="title">{{ alert.title }}</span>
+                                <p class="description">{{ alert.description }}</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="no-alerts-to-show" v-else>
+                    <span class="main-text">{{ $t("report.no_alerts_title") }}</span>
+                    <span class="second-text">{{ $t("report.no_alerts_subtext") }}</span>
+                </div>
                 <h5 class="title-report" v-if="uncategorized_records.length>0">{{ $t("report.uncat_coms_table") }}</h5>
                 <div v-if="uncategorized_records.length>0">
                     <table class="table-uncat">
@@ -98,6 +104,25 @@
                             <td>{{ Object.keys(record.protocols).map(key => record.protocols[key].name).join(", ") }}</td>
                             <td v-on:click="add_whitelist(record.domains[0])">{{ record.domains.join(", ") }}</td>
                             <td v-on:click="add_whitelist(record.ip_dst)">{{ record.ip_dst }}</td>
+                            <td>{{ Object.keys(record.protocols).map(key => record.protocols[key].port).join(", ") }}</td>
+                        </tr>
+                    </table>
+                </div>
+                <h5 class="title-report" v-if="uncategorized_records.length>0">{{ $t("report.whitelisted_coms_table") }}</h5>
+                <div v-if="whitelisted_records.length>0">
+                    <table class="table-uncat">
+                        <thead>
+                            <tr>
+                                <td>{{ $t("report.protocol") }}</td>
+                                <td>{{ $t("report.domain_name") }}</td>
+                                <td>{{ $t("report.ip_address") }}</td>
+                                <td>{{ $t("report.port") }}</td>
+                            </tr>
+                        </thead>
+                        <tr v-for="record in whitelisted_records" :key="record.ip_dst">
+                            <td>{{ Object.keys(record.protocols).map(key => record.protocols[key].name).join(", ") }}</td>
+                            <td>{{ record.domains.join(", ") }}</td>
+                            <td>{{ record.ip_dst }}</td>
                             <td>{{ Object.keys(record.protocols).map(key => record.protocols[key].port).join(", ") }}</td>
                         </tr>
                     </table>
@@ -133,7 +158,8 @@ export default {
         return {
             results: true,
             detection_methods: "",
-            uncategorized_records: []
+            uncategorized_records: [],
+            whitelisted_records: []
         }
     },
     props: {
@@ -178,10 +204,12 @@ export default {
         add_whitelist: function(host){
             EventBus.$emit("showModal", {"action" : "whitelist", "host" : host})
         },
-        get_uncategorized_records: function(){
+        get_records: function(){
             this.records.forEach( r => {
                 if (!r.suspicious && !r.whitelisted){
                     this.uncategorized_records.push(r);
+                } else if (r.whitelisted){
+                    this.whitelisted_records.push(r);
                 }
             })
         }
@@ -189,7 +217,7 @@ export default {
     created: function() {
         console.log("[report.vue] Showing report.vue");
         this.get_detection_methods();
-        this.get_uncategorized_records();
+        this.get_records();
     }
 }
 </script>
