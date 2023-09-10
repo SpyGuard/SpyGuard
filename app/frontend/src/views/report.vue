@@ -108,7 +108,7 @@
                         </tr>
                     </table>
                 </div>
-                <h5 class="title-report" v-if="uncategorized_records.length>0">{{ $t("report.whitelisted_coms_table") }}</h5>
+                <h5 class="title-report" v-if="whitelisted_records.length>0">{{ $t("report.whitelisted_coms_table") }}</h5>
                 <div v-if="whitelisted_records.length>0">
                     <table class="table-uncat">
                         <thead>
