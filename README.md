@@ -31,7 +31,7 @@ The frontend is available at the URL `https://localhost:8000`.
 
 ### SpyGuard and Stalkerware threat
 
-The indicators of compromise (IOCs) linked to stalkerware are now fully managed by [ECHAP](https://echap.eu.org), a French association working against  cyberviolence. Even though stalkerware still remains a threat, remember that most of digital violence and surveillance is done by using simple means, such as hacking cloud & mail accounts. Therefore, we encourage you to consult the [ECHAP guides](https://echap.eu.org/ressources/) and apply their advice to your digital life alongside of device checks.
+The indicators of compromise (IOCs) linked to stalkerware are now fully managed by [ECHAP](https://echap.eu.org), a French association working against cyberviolence. Even though stalkerware still remains a threat, **remember that most of digital violence and surveillance is done by using simple means**, such as hacking cloud & mail accounts. Therefore, we encourage you to consult the [ECHAP guides](https://echap.eu.org/ressources/) and apply their advice to your digital life alongside of device checks.
 
 > [!IMPORTANT]
 > It is worth mentioning that the IOCs are distributed under the **Creative Common BY-NC-SA** licence.
