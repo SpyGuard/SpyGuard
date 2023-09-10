@@ -6,6 +6,7 @@ import os
 import re
 import subprocess as sp
 import sys
+import time
 from datetime import datetime
 from ipaddress import IPv4Address, IPv6Address
 
@@ -90,17 +91,25 @@ class Engine():
 
     def check_internet(self) -> bool:
         """Check the internet link just with a small http request
-        to an URL present in the configuration
+        to an URL present in the configuration. If the link is down,
+        retry 3 times.
 
         Returns:
             bool: True if everything works.
         """
-        try:
-            url = get_config(("network", "internet_check"))
-            requests.get(url, timeout=3)
-            return True
-        except:
-            return False
+        attempts = 3
+
+        while True:
+            try:
+                url = get_config(("network", "internet_check"))
+                requests.get(url, timeout=3)
+                return True
+            except:
+                if attempts == 0:
+                    return False
+                else:
+                    time.sleep(5)
+                    attempts -= 1
 
     def get_public_ip(self) -> list:
         """Get the public IP address
