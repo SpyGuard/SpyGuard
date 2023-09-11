@@ -86,7 +86,7 @@
                     </ul>
                 </div>
                 <div class="no-alerts-to-show" v-else>
-                    <span class="main-text">{{ $t("report.no_alerts_title") }}</span>
+                    <span class="main-text">{{ $t("report.no_alerts_title") }}</span><br />
                     <span class="second-text">{{ $t("report.no_alerts_subtext") }}</span>
                 </div>
                 <h5 class="title-report" v-if="uncategorized_records.length>0">{{ $t("report.uncat_coms_table") }}</h5>
