@@ -48,7 +48,7 @@
                         {{ $t("report.detection_methods") }} {{ detection_methods }}
                     </div>
                 </div>
-                <div v-if="alerts.length>0">
+                <div v-if="alerts">
                     <ul class="alerts">
                         <li class="alert" v-for="alert in alerts.high" :key="alert.message">
                             <div class="alert-header">
