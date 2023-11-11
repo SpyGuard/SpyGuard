@@ -29232,5 +29232,53 @@
             "tlp": "white",
             "value": "weatherforecast.services"
         }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "apkcar.com"
+        }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "cbpheback.com"
+        }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "cbphe.com"
+        }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "dcylog.com"
+        }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "dofunapps.com"
+        }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "flyermobi.com"
+        }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "ikmytech.com"
+        }
+        {
+            "type": "domain",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "ycxrl.com"
+        }
     ]
 }
