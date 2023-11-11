@@ -29279,6 +29279,2832 @@
             "tag": "malware",
             "tlp": "white",
             "value": "ycxrl.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "2y4nothing.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "5m5.io"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "9o.gg"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "actualite.emergence-mada.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "actumali.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "addons.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "adenuncia.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "adibjan.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "adservices.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "adultpcz.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "advertsservices.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "advfb.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "affise.app"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "africa-confidentiel.fr"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "afrinew.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "air-shopping.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "allafrika.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "almal-news.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "almasryelyuom.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "almasrylayoum.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "alpineai.uk"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "alraeeenews.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "alraeesnews.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "altsantiri.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "amazing.lab"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ancienthistory.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "android-apps.tech"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "aoatlasescort.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "api-apple-buy.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "api-telecommunication.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "applepps.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "apps-ios.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "aramexegypt.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "atheere.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "audit-pvv.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bank-alahly.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bbcsworld.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bbitly.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bestwesternt.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "betly.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bit-li.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bitlinkin.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bit-li.ws"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bitlly.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bi.tly.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bi.tly.link"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bit-ly.link"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bit-ly.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bitlyrs.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bitshort.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bitt.fi"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bityl.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bity.ws"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "blacktrail.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "blitzmedia.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bmw.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bookjob.club"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "breaknews.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "brkorage.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "browsercheck.services"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "btlin.life"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bulk-ads.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "bumabara.bid"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "burgerprince.us"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "businesnews.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "businessafricaonline.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "candidaturasminfin.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "candidaturassonangol.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "canyouc.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "carrefourmisr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cbbc01.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "c.betly.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "celebrnewz.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cellconn.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "charmander.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "chat-support.support"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "chatwithme.store"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cibeg.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "citroen.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ckforward.one"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "clckbck.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "clcti.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "clockupdate.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cloudstatistics.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cloudtimesync.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "clubs-k.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cnn.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cnn-portugal.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "conlnk.one"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "connectivitychecker.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "connectivitycheck.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "connectivitycheck.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "conodeti.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "contents-domain.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "correiosdeangola.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cosmote.center"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "covid19masks.shop"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "crashonline.site"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "culniks.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cut.red"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "cyber.country"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "danas.bid"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "dealstransfer.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "dhll.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "distedc.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "download4you.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "dragonair.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "dw-news.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "eagerfox.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ebill.cosmote.center"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "edolio5.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "efsyn.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "efsyn.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "eg-gov.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "egypt-post.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "egyqaz.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "elpais.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "elwatnanews.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "emvolio-gov.gr"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "engine.ninja"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "enigmase.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "enikos.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ereportaz.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "espressonews.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "etisalategypt.tech"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "etisalatgreen.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "eventes.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ewish.cards"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "factosdiarios.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "fastdownload.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "fastuploads.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "fbc8213450838f7ae251d4519c195138.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "fdnews.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ferrari.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ffoxnewz.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "fimes.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "fireup.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "fisherman.engine.ninja"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "flash.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "flexipagez.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "flowercafee.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "flytaps.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "folha-9.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "forwardeshoptt.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "geloraku.id"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "getsignalapps.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "getsignalapps.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "getupdatesnow.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "glbnews.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "goldenscent.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "goldenscint.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "goldescent.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "gorlovski.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "gorows.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "gosokm.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "gostosadeluxo.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "growebservice.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "grupohel.social"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "grvnews.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "guardian-tt.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "guardnew.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "guardnews.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "gulfsports.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "gulfsports.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "gulfweather.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "heaven.army"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "heiiasjournai.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "hellasjournal.company"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "hellasjournal.website"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "hellottec.art"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "hempower.shop"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "hopnope.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "icloudeu.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "icloudflair.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "iibt.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ikea-egypt.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ilnk.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "imparcialpress.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "inews.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "informburo.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "infosms-a.site"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "in-politics.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "inservices.digital"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "insider.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "instagam.click"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "instagam.in"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "instagam.photos"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "instegram.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "insurance.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "intercontinentalhg.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "intnews.world"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "invoker.icu"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ios-apps.store"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "iosmnbg.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "itcgr.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "itly.link"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "itter.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "jakalas.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "jofki.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "jornaldeangola.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "jornalf8.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "jquery-updater.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kalwaski.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kathimerini.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kinder.engine.ninja"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "koenigseggg.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kohaicorp.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "koora-egypt.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kormoran.bid"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kranos.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kz-news.cc"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "kz-shops.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lamborghini-s.shop"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "landingpge.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "landingpg.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "leanwithme.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "leefco.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lexpress.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lexpress-mg.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lexpressmg.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lifestyleshops.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lilpastanews.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "limk.one"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "linkit.cloud"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "linkit.digital"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "link-m.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "link-protection.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "linktothisa.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "liponals.store"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "live24.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "liveco.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "livingwithbadkidny.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "llinkedin.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lnkedin.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "localegem.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lttlnk.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lubentv.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "lylink.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mada.sahia-mijoro.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "makeitshort.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "md-news-direct.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "midi-madgasikara.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mifcbook.link"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "miniiosapps.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mitube1.link"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mlinks.ws"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mobnetlink1.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mobnetlink2.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mobnetlink3.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "moncn.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mozillaupdate.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "msas.ws"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mujimbos.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mulherevips.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mult.icaixa.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mycoffeeshop.shop"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "myfcbk.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mytrips.quest"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "myutbe.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "mywebsitevpstest.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nabde.app"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nabd.site"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nassosblog.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nemshi.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nemshi-news.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nemshi-news.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "networkenterprise.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "newsbeast.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "newslive2.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "newspool.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "newsreuter.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "newsworldsports.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "newzeto.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "newzgroup.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "niceonase.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "niceonesa.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nikjol.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nissan.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "nm-weather.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "notifications-sec.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "notify-kz.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "novojornal.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "novosti.bid"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "oilgy.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "olexegy.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "olxeg.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "omanreal.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "omeega.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ongs.life"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "onlineservices.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "onlinewebinarmarketing.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "orangegypt.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "orchomenos.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ordas-kz.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "otaupdatesios.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "paok-24.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "pastepast.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "pasteposta.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "pdfviewer.app"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "platinalines.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "playestore.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "pocopoc.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "podcastnow.club"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "politika.bid"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "politique-koaci.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "popup-pw.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "portalxa.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "post-kz.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "prmopromo.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "pronews.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "protothema.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "proupload.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ps1link.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ps2link.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "qamqors.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "quick-ads.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "quickupdates.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "qwert.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "qwxzyl.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "redeitt.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "redirecting.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "redirecting.page"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "redirto.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "safelyredirecting.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "safelyredirecting.digital"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sec-flare.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sepenet.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sephoragroup.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "servers-mobile.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "serviceupdaterequest.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sextape225.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shanam.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shop-collect.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shortely.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shorten.fi"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shortenurls.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shortly.work"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shortmee.one"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shortwidgets.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "shortxyz.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "showsme.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sicnoticia.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "simetricode.uk"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sinai-new.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sitepref.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "skollie.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "skranski.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sky-news.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "smallme.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "smcu.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "smsuns.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "snapfire.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sniper.pet"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "solargoup.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "solargroup.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "soq.one"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "speedygonzales.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "speedymax.shop"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "speedy.sbs"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sports-mdg.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sportsnewz.site"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "static-graph.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "stonisi.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "suarajubi.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "suarajubi.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "supportset.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "suzuki.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "svetovid.bid"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "symoty.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "syncservices.one"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "synctimestamp.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "syncupdate.site"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sysly.sbs"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "sysnet.life"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "taagangola.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "t-bit.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tclnk.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "telecomegy-ads.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "telenorconn.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tengrinnews.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "teslali.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "teslal.shop"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "teslal.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tesla-s.shop"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tgrthgsrgwrthwrtgwr.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "timestampsync.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "timeupdateservice.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "timeupdate.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tiny.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tinylinks.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tinyulrs.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tinyurl.cloud"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tiol.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tly.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tly.link"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tokoulouri.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tovima.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "traffic-moi-eg.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "t-ready.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "trecvf.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "trecv.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tribune-mg.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "trkc.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "truelocation.org"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tsapp.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tsrt.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tupuca.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tvxs.news"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "tw.itter.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "twtter.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "ube.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "uberegypt.cn.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "unitei.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "universedades.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "updates4you.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "updateservice.center"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "updatetime.zone"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "updatingnews.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "updete.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "url-promo.club"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "url-tiny.app"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "uservicescheck.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "uservicesforyou.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "utube.digital"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "utube.to"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "vaovao.soutien-a-rajoelina.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "verifyurl.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "vinhosadega.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "visavfsglobal.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "viva.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "vodafoneegypt.tech"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "vodafonegypt.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "vouliwatch.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wa-info.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wavekli.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "weathear.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "weather-live.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "weathernewz.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "weathersite.online"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "webaffise.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wesalcity.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "we-site.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wha.tsapp.me"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "whatssapp.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "worldnws.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wtc1111.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wtc2222.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wtc3333.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "wts-app.info"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "xf.actor"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "xnxx-hub.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "xyvok.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "yallakora-egy.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youarefired.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youtub.app"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "yo.utube.digital"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youtub-eg.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "yout.ube.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youtube.gr.live"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youtu-be.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youtubesyncapi.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "yo.utube.to"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youtube.voto"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "youtubewatch.co"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "yuom7.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "z2a.digital"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "z2adigital.cloud"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "z2digital.cloud"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "zoometting.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "zougla.gr.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "zougla.news"
         }
     ]
 }
