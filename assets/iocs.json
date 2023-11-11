@@ -32105,6 +32105,78 @@
                 "tag": "apt",
                 "tlp": "white",
                 "value": "zougla.news"
+        },
+        {
+                "type": "ip4addr",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "116.205.4.18"
+        },
+        {
+                "type": "ip4addr",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "121.42.149.52"
+        },
+        {
+                "type": "ip4addr",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "118.193.39.165"
+        },
+        {
+                "type": "ip4addr",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "121.201.109.98"
+        },
+        {
+                "type": "ip4addr",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "103.43.17.99"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "win10micros0ft.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "andropwn.xyz"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "update.umisen.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "alxc.tbtianyan.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "yxwasec.com"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "smiss.imwork.net"
+        },
+        {
+                "type": "domain",
+                "tag": "apt",
+                "tlp": "white",
+                "value": "huaxin-bantian.duckdns.org"
         }
     ]
 }
