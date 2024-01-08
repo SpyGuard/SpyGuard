@@ -2,6 +2,7 @@
 
 CURRENT_USER="${SUDO_USER}"
 SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
+USER_HOME=$(bash -c "cd ~$(printf %q $CURRENT_USER) && pwd")
 HOST="$( hostname )"
 LOCALES=(en fr es ru pt de it)
 
@@ -90,7 +91,7 @@ Description=Spyguard frontend service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/share/spyguard/server/frontend/main.py
+ExecStart=$USER_HOME/spy-venv/bin/python3 /usr/share/spyguard/server/frontend/main.py
 Restart=on-abort
 KillMode=process
 
@@ -105,7 +106,7 @@ Description=Spyguard backend service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/share/spyguard/server/backend/main.py
+ExecStart=$USER_HOME/spy-venv/bin/python3 /usr/share/spyguard/server/backend/main.py
 Restart=on-abort
 KillMode=process
 
@@ -122,7 +123,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/share/spyguard/server/backend/watchers.py
+ExecStart=$USER_HOME/spy-venv/bin/python3 /usr/share/spyguard/server/backend/watchers.py
 Restart=on-abort
 KillMode=process
 
@@ -185,7 +186,7 @@ check_dependencies() {
        fi
    done
    echo -e "\e[39m[+] Install Python packages...\e[39m"
-   python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt"
+   python3 -m venv $USER_HOME/spy-venv && source $USER_HOME/spy-venv/bin/activate && python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt"
 }
 
 get_version() {
@@ -248,3 +249,5 @@ else
     feeding_iocs
     cleaning
 fi
+
+
