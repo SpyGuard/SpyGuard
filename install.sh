@@ -171,7 +171,7 @@ check_dependencies() {
          "/usr/bin/dig"
          "/usr/bin/suricata"
          "/usr/bin/sqlite3"
-         "/usr/bin/pip3",
+         "/usr/bin/pip3"
          "/usr/sbin/arp")
 
    echo -e "\e[39m[+] Checking dependencies...\e[39m"
