@@ -2,7 +2,6 @@
 delete_folder(){
     echo "[+] Deleting Spyguard folders"
     rm -rf /usr/share/spyguard/
-    rm -rf /home/${SUDO_USER}/SpyGuard-venv
 }
 
 delete_services(){
