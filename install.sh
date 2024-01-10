@@ -184,8 +184,11 @@ check_dependencies() {
            install_package ${bin##*/}
        fi
    done
+   echo -e "\e[39m[+] Create and activate Virtual Environment for Python packages\e[39m"
+   python3 -m venv /usr/share/spyguard/spyguard-venv
+   source /usr/share/spyguard/spyguard-venv/bin/activate
    echo -e "\e[39m[+] Install Python packages...\e[39m"
-   python3 -m venv /usr/share/spyguard/spyguard-venv && source /usr/share/spyguard/spyguard-venv/bin/activate && python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt"
+   python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt"
 }
 
 get_version() {
