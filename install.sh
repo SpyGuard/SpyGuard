@@ -188,7 +188,7 @@ check_dependencies() {
    python3 -m venv /usr/share/spyguard/spyguard-venv
    source /usr/share/spyguard/spyguard-venv/bin/activate
    echo -e "\e[39m[+] Install Python packages...\e[39m"
-   python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt"
+   python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt" --no-cache-dir
 }
 
 get_version() {
