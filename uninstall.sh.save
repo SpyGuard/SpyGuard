@@ -32,11 +32,10 @@ delete_packages(){
     if [[ "$answer" =~ ^([yY][eE][sS]|[yY])$ ]]
     then
         for pkg in "${pkgs[@]}"
-        do
-            apt -y remove $pkg && apt -y purge $pkg
+        do            apt -y remove $pkg && apt -y purge $pkg
         done
+    apt autoremove &> /dev/null
     fi
-    apt autoremove &> /dev/null -y
 }
 
 update_hostname(){
