@@ -66,8 +66,8 @@ set_credentials() {
 }
 
 create_directory() {
-    # Create the Spyguard directory and move the whole stuff there.
-    echo -e "[+] Creating Spyguard folder under /usr/share/"
+    # Create the SpyGuard directory and move the whole stuff there.
+    echo -e "[+] Creating SpyGuard folder under /usr/share/"
     mkdir /usr/share/spyguard
     cp -Rf ./* /usr/share/spyguard
 }
