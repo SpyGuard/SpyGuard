@@ -9,7 +9,7 @@
             "description": "{}Zaobserwowano połączenie z {} do portu {}. Użycie niestandardowych portów może wskazywać na złośliwą komunikację. Zaleca się sprawdzenie reputacji hosta poprzez przejrzenie innych ostrzeżeń oraz przeszukanie internetu."
         },
         "PROTO-03": {
-            "title": "Komunikacja HTTP z hostem {}",
+            "title": "Komunikacja HTTP z hostem {}.",
             "description": "Twoje urządzenie komunikowało się z hostem {} przy użyciu nieszyfrowanego protokołu HTTP. To niekoniecznie złośliwa komunikacja, rzadko się jednak zdarza nieszyfrowana komunikacja w przypadku aplikacji działających w tle - gdy użytkownik nie odwiedzi samemu nieszyfrowanej strony. Sprawdź reputację hosta w internecie." 
         },
         "PROTO-04": {
@@ -18,7 +18,7 @@
         },
         "PROTO-05": {
             "title": "Serwer {} nie został rozwiązany poprzez zapytanie DNS podczas badania.",
-            "description": "Oznacza to że serwer {} nie został odwzorowany z zapytania o jakąkolwiek domenę lub urzadzenie wykorzystało wartość z cache. Przyjrzyj się temu hostowi jeśli pojawia się w innych ostrzeżeniach."
+            "description": "Oznacza to, że serwer {} nie został odwzorowany z zapytania o jakąkolwiek domenę lub urzadzenie wykorzystało wartość z cache. Przyjrzyj się temu hostowi jeśli pojawia się w innych ostrzeżeniach."
         },
         "IOC-01": {
             "title": "Nawiązano połączenie z  {} ({}), który jest oznaczony jako {}.",
@@ -26,7 +26,7 @@
         },
         "IOC-02": {
             "title": "Komunikacja z {} w sieci  {}, która jest oznaczona jako {}.",
-            "description": "Serwer {} w obrębie sieci, która jest znana z hostowania złośliwego oprogramowania. To nie musi oznaczać przeprowadzenia złośliwych działań, sprawdź jednak czy ten serwer jest wspomniany w innych ostrzeżeniach. W przypadku wątpliwości przeszukaj internet pod kątem informacji o tym serwerze i jego reputacji."
+            "description": "Serwer {} pracuje w obrębie sieci, która jest znana z hostowania złośliwego oprogramowania. To nie musi oznaczać przeprowadzenia złośliwych działań, sprawdź jednak czy ten serwer jest wspomniany w innych ostrzeżeniach. W przypadku wątpliwości przeszukaj internet pod kątem informacji o tym serwerze i jego reputacji."
         },
         "IOC-03": {
             "title": "Zaobserwowano zapytanie DNS o nazwę {}, która jest oznaczona jako {}.",
@@ -34,7 +34,7 @@
         },
         "IOC-04": {
             "title": "Zaobserwowano zapytanie DNS o nazwę {}, która jest oznaczona jako {}.",
-            "description": "Nazwa domenowa {} zaobserwowana w ruchu sieciowym została jednoznacznie oznaczona śledząca. Oznacza to, że jedna z aplikacji śledzi Twoje położenie geograficzne."
+            "description": "Nazwa domenowa {} zaobserwowana w ruchu sieciowym została jednoznacznie oznaczona jako śledząca. Oznacza to, że jedna z aplikacji śledzi Twoje położenie geograficzne."
         },
         "IOC-05": {
             "title": "Zaobserwowano zapytanie DNS o nazwę {}, która używa usługi Free DNS.",
@@ -73,12 +73,12 @@
             "description": "Skorzystano z serwera {} DNS over HTTPs (DoH) podczas badania. Wygląda na to, że co najmniej jedna aplikacja używa tej metody w celu szyfrowania zapytań DNS. Ogranicza to możliwościa przeglądania ruchu przez SpyGuard. Jeśli ta funkcja nie jest włączona na urządzeniu, warto dowiedzieć się, która aplikaja używa tej metody."
         },
         "ACT-01": {
-            "title": "The domain {} is using a suspect nameserver ({}).",
-            "description": "The domain name {} is using a nameserver that has been explicitly tagged to be associated to malicious activities. Many cybercriminals and state-sponsored threat actors are using this kind of registrars because they allow cryptocurrencies and anonymous payments. It is adviced to investigate on this domain and the associated running application by doing a forensic analysis of the phone."
+            "title": "Domena {} używa podejrzanego serwera nazw ({}).",
+            "description": "Nazwa domenowa {} używa serwera nazwa, który został jednoznacznie oznaczony jako skojarzony ze złośliwymi działaniami. Wielu cybeprzestępców oraz atakujących sponsorowanych przez państwa używa tego rodzaju rejestratorów nazw ponieważ pozwalają na płatności kryptowalutami oraz płatności anonimowe. Zaleca się zbadać tą domenę oraz aplikacje, które ją wykorzystują poprzez analizę telefonu metodami informatyki śledczej."
         },
         "ACT-02": {
-            "title": "The domain {} have been created quite recently ({} days ago).",
-            "description": "The domain name {} is quite new. Even this is not malicious by itself, its quite common for attackers to set up new infrastructure for each attack campaign which can lead to the use of recently registered domain names."
+            "title": "Domena {} został stworzona całkiem niedawno ({} dni temu).",
+            "description": "Nazwa domenowa {} jest relatywnie nowa. Mimo że to samo w sobie nie jest złośliwe, dosyć często atakujący tworzą nową infrastrukturę dla kolejnych kampanii ataków co może objawiać się wykorzystaniem świeżo rejestrowanych domen."
         },
         "SSL-01": {
             "title": "Połączenie TLS/SSL zrealizowane na niestandardowym porcie ({}) do {}",

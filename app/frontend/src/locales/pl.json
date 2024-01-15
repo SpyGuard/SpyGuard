@@ -21,11 +21,11 @@
         "tap_msg": "Naciśnij białą ramkę aby wygenerować nową sieć.",
         "generate_ap_msg": "Wygenerujemy tymczasową sieć do wykorzystania.",
         "error_msg1": "Niestety, wystąpiły problemy <br />podczas tworzenia punktu dostępowego.",
-        "error_msg2": "Sprawdź czy odpowiedni interfejst został skonfigurowanay<br /> w ustawieniach zaplecza."
+        "error_msg2": "Sprawdź czy odpowiedni interfejs został skonfigurowany<br /> w ustawieniach zaplecza."
     },
     "report": {
         "show_full_report": "Pokaż pełny raport",
-        "start_new_capture": "Rozpocznij nowe przechwytywanie",
+        "start_new_capture": "Rozpocznij od nowa",
         "save_capture": "Zachowaj ruch sieciowy",
         "save": "Zapisz",
         "print": "Drukuj",
@@ -43,19 +43,19 @@
             "dziesięć",
             "jedenaście"
         ],
-        "stalkerware_msg": "Twoje urządzenie jest zagrożone<br />przez Stalkerware, zapoznaj się z raportem.",
+        "stalkerware_msg": "Twoje urządzenie jest zagrożone<br />przez stalkerware, zapoznaj się z raportem.",
         "location_msg": "Aplikacja udostępnia Twoje<br /> bieżące położenie stronie trzeciej.",
         "fine_msg": "Wszystko wygląda w porządku, zero alarmów.",
         "high_msg": "Masz {nb} poważnych alarmów,<br />Twoje urządzenie wygląda na zagrożone.",
         "moderate_msg": "Masz {nb} umiarkowanych alarmów,<br />Twoje urządzenie może być zagrożone.",
-        "low_msg": "Masz tylko {nb} niskich alarmów,<br /> nie wahaj się ich sprawdzić.",
-        "save_report": "Zapisze raport",
+        "low_msg": "Masz tylko {nb} niskich alarmów,<br />nie wahaj się ich sprawdzić.",
+        "save_report": "Zapisz raport",
         "report_of": "Raport z",
         "detection_methods": "Metody detekcji:",
         "indicators": "Wskaźniki",
-        "heuristics": "Anomalie",
-        "active": "Aktywn",
-        "pcap_sha1": "Suma SHA1 zapisu przechwyconego ruchu:",
+        "heuristics": "Heurystyki",
+        "active": "Aktywne",
+        "pcap_sha1": "Suma SHA1 zapisu ruchu:",
         "capture_started": "Przechwytywanie rozpoczęto o:",
         "capture_ended": "Przechwytywanie zakończono o:",
         "high": "wysoki",
@@ -88,6 +88,6 @@
         "no_go_back": "Nie, wróć",
         "yes_continue": "Tak, kontynuuj",
         "please_give_the_password": "Podaj hasło do sieci: ",
-        "want_to_whitelist" : "Czy chcesz dodać <i class='ioc'>{host}</i> do listy dozwolonych<br /> dla następnych analiz?"
+        "want_to_whitelist" : "Czy chcesz dodać <i class='ioc'>{host}</i> do listy dozwolonych<br />dla następnych analiz?"
     }
 }
