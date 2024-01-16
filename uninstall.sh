@@ -16,11 +16,6 @@ delete_services(){
     rm /lib/systemd/system/spyguard-watchers.service
 }
 
-deleting_icon(){
-    echo "[+] Deleting desktop icon"
-    rm "/home/${SUDO_USER}/Desktop/spyguard.desktop"
-}
-
 delete_packages(){
     pkgs=("tshark"
           "dnsutils"
