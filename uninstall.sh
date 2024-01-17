@@ -26,6 +26,7 @@ delete_packages(){
     read answer
     if [[ "$answer" =~ ^([yY][eE][sS]|[yY])$ ]]
     then
+        rm -rf /var/log/suricata
         for pkg in "${pkgs[@]}"
         do
             apt -y remove $pkg && apt -y purge $pkg
