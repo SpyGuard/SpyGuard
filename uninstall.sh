@@ -54,7 +54,6 @@ if [[ $EUID -ne 0 ]]; then
 else
     delete_folder
     delete_services
-    deleting_icon
     update_hostname
     delete_packages
     reboot_box
