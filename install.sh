@@ -3,7 +3,7 @@
 CURRENT_USER="${SUDO_USER}"
 SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
 HOST="$( hostname )"
-LOCALES=(en fr es ru pt de it pl)
+LOCALES=(de en es fr it pl pt ru)
 
 welcome_screen() {
 cat << "EOF"
