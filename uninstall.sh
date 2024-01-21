@@ -1,11 +1,11 @@
 
 delete_folder(){
-    echo "[+] Deleting Spyguard folders"
+    echo "[+] Deleting SpyGuard folders"
     rm -rf /usr/share/spyguard/
 }
 
 delete_services(){
-    echo "[+] Deleting Spyguard services"
+    echo "[+] Deleting SpyGuard services"
 
     systemctl disable spyguard-frontend &> /dev/null
     systemctl disable spyguard-backend &> /dev/null
@@ -16,27 +16,23 @@ delete_services(){
     rm /lib/systemd/system/spyguard-watchers.service
 }
 
-deleting_icon(){
-    echo "[+] Deleting desktop icon"
-    rm "/home/${SUDO_USER}/Desktop/spyguard.desktop"
-}
-
 delete_packages(){
     pkgs=("tshark"
           "dnsutils"
           "suricata"
           "sqlite3")
-    
+
     echo -n "[?] Do you want to remove the installed packages? (Yes/no) "
     read answer
     if [[ "$answer" =~ ^([yY][eE][sS]|[yY])$ ]]
     then
+        rm -rf /var/log/suricata
         for pkg in "${pkgs[@]}"
-        do 
+        do
             apt -y remove $pkg && apt -y purge $pkg
         done
     fi
-    apt autoremove &> /dev/null 
+    apt autoremove &> /dev/null -y
 }
 
 update_hostname(){
@@ -59,7 +55,6 @@ if [[ $EUID -ne 0 ]]; then
 else
     delete_folder
     delete_services
-    deleting_icon
     update_hostname
     delete_packages
     reboot_box

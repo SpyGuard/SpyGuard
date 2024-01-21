@@ -7,11 +7,11 @@ LOCALES=(de en es fr it pl pt ru)
 
 welcome_screen() {
 cat << "EOF"
-   __   _         __              _    _  
-  (_   |_)  \_/  /__  | |   /\   |_)  | \ 
-  __)  |     |   \_|  |_|  /--\  | \  |_/ 
-                                  
-SpyGuard is a fork of TinyCheck, developped by Kaspersky. 
+   __   _         __              _    _
+  (_   |_)  \_/  /__  | |   /\   |_)  | \
+  __)  |     |   \_|  |_|  /--\  | \  |_/
+
+SpyGuard is a fork of TinyCheck, developped by Kaspersky.
 -----
 
 EOF
@@ -66,8 +66,8 @@ set_credentials() {
 }
 
 create_directory() {
-    # Create the Spyguard directory and move the whole stuff there.
-    echo -e "[+] Creating Spyguard folder under /usr/share/"
+    # Create the SpyGuard directory and move the whole stuff there.
+    echo -e "[+] Creating SpyGuard folder under /usr/share/"
     mkdir /usr/share/spyguard
     cp -Rf ./* /usr/share/spyguard
 }
@@ -90,7 +90,7 @@ Description=Spyguard frontend service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/share/spyguard/server/frontend/main.py
+ExecStart=/usr/share/spyguard/spyguard-venv/bin/python3 /usr/share/spyguard/server/frontend/main.py
 Restart=on-abort
 KillMode=process
 
@@ -105,7 +105,7 @@ Description=Spyguard backend service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/share/spyguard/server/backend/main.py
+ExecStart=/usr/share/spyguard/spyguard-venv/bin/python3 /usr/share/spyguard/server/backend/main.py
 Restart=on-abort
 KillMode=process
 
@@ -122,7 +122,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/share/spyguard/server/backend/watchers.py
+ExecStart=/usr/share/spyguard/spyguard-venv/bin/python3 /usr/share/spyguard/server/backend/watchers.py
 Restart=on-abort
 KillMode=process
 
@@ -171,7 +171,7 @@ check_dependencies() {
          "/usr/bin/dig"
          "/usr/bin/suricata"
          "/usr/bin/sqlite3"
-         "/usr/bin/pip3",
+         "/usr/bin/pip3"
          "/usr/sbin/arp")
 
    echo -e "\e[39m[+] Checking dependencies...\e[39m"
@@ -184,8 +184,11 @@ check_dependencies() {
            install_package ${bin##*/}
        fi
    done
+   echo -e "\e[39m[+] Create and activate Virtual Environment for Python packages\e[39m"
+   python3 -m venv /usr/share/spyguard/spyguard-venv
+   source /usr/share/spyguard/spyguard-venv/bin/activate
    echo -e "\e[39m[+] Install Python packages...\e[39m"
-   python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt"
+   python3 -m pip install -r "$SCRIPT_PATH/assets/requirements.txt" --no-cache-dir
 }
 
 get_version() {

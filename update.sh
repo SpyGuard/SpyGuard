@@ -6,12 +6,12 @@ fi
 
 if [ $PWD = "/usr/share/spyguard" ]; then
     echo "[+] Cloning the current repository to /tmp/"
-    rm -rf /tmp/spyguard/ &> /dev/null 
+    rm -rf /tmp/spyguard/ &> /dev/null
     cd /tmp/ && git clone https://github.com/SpyGuard/spyguard
     cd /tmp/spyguard && bash update.sh
 elif [ $PWD = "/tmp/spyguard" ]; then
 
-    echo "[+] Saving spyguard backend's SSL configuration in /tmp/"
+    echo "[+] Saving SpyGuard backend's SSL configuration in /tmp/"
     mv /usr/share/spyguard/server/backend/*.pem /tmp/
 
     echo "[+] Deleting the current SpyGuard folders and files."
