@@ -1,0 +1,147 @@
+{
+    "alerts": {
+        "PROTO-01": {
+            "title": "Komunikacja {} poza sieć lokalną z {}.",
+            "description": "Protokół {} jest często używany w sieciach lokalnych. Sprawdź, czy host {} jest obecny w innych ostrzeżeniach, co może oznaczać złośliwe zachowanie."
+        },
+        "PROTO-02": {
+            "title": "{} Połączenie z {} do portu większego lub równego {}.",
+            "description": "{}Zaobserwowano połączenie z {} do portu {}. Użycie niestandardowych portów może wskazywać na złośliwą komunikację. Zaleca się sprawdzenie reputacji hosta poprzez przejrzenie innych ostrzeżeń oraz przeszukanie internetu."
+        },
+        "PROTO-03": {
+            "title": "Komunikacja HTTP z hostem {}.",
+            "description": "Twoje urządzenie komunikowało się z hostem {} przy użyciu nieszyfrowanego protokołu HTTP. To niekoniecznie złośliwa komunikacja, rzadko się jednak zdarza nieszyfrowana komunikacja w przypadku aplikacji działających w tle - gdy użytkownik nie odwiedzi samemu nieszyfrowanej strony. Sprawdź reputację hosta w internecie." 
+        },
+        "PROTO-04": {
+            "title": "Komunikacja HTTP z hostem {} na niestandardowym porcie ({}).",
+            "description": "Twoje urządzenie komunikowało się z hostem {} przy użyciu nieszyfrowanego protokołu HTTP na porcie {}. Takie zachowanie jest dosyć nietypowe. Sprawdź reputację hosta w internecie."
+        },
+        "PROTO-05": {
+            "title": "Serwer {} nie został rozwiązany poprzez zapytanie DNS podczas badania.",
+            "description": "Oznacza to, że serwer {} nie został odwzorowany z zapytania o jakąkolwiek domenę lub urzadzenie wykorzystało wartość z cache. Przyjrzyj się temu hostowi jeśli pojawia się w innych ostrzeżeniach."
+        },
+        "IOC-01": {
+            "title": "Nawiązano połączenie z  {} ({}), który jest oznaczony jako {}.",
+            "description": "Serwer {} został dodany na listę podejrzanych adresów w związku ze złośliwym zachowaniem. Prawodpodobnie Twoje urządzenie jest skompromitowane i powinno zostać poddane dokładniejszej analizie przez profesjonalistę od bezpieczeństwa IT."
+        },
+        "IOC-02": {
+            "title": "Komunikacja z {} w sieci  {}, która jest oznaczona jako {}.",
+            "description": "Serwer {} pracuje w obrębie sieci, która jest znana z hostowania złośliwego oprogramowania. To nie musi oznaczać przeprowadzenia złośliwych działań, sprawdź jednak czy ten serwer jest wspomniany w innych ostrzeżeniach. W przypadku wątpliwości przeszukaj internet pod kątem informacji o tym serwerze i jego reputacji."
+        },
+        "IOC-03": {
+            "title": "Zaobserwowano zapytanie DNS o nazwę {}, która jest oznaczona jako {}.",
+            "description": "Nazwa domenowa {} zaobserwowana w ruchu sieciowym została jednoznacznie oznaczona jako złośliwa. Oznacza to, że Twoje urządzenie jest prawdopodobnie skompromitowane i powinno być poddane dokładniejszej analizie."
+        },
+        "IOC-04": {
+            "title": "Zaobserwowano zapytanie DNS o nazwę {}, która jest oznaczona jako {}.",
+            "description": "Nazwa domenowa {} zaobserwowana w ruchu sieciowym została jednoznacznie oznaczona jako śledząca. Oznacza to, że jedna z aplikacji śledzi Twoje położenie geograficzne."
+        },
+        "IOC-05": {
+            "title": "Zaobserwowano zapytanie DNS o nazwę {}, która używa usługi Free DNS.",
+            "description": "Nazwa domenowa {} używa usługi Free DNS. Ten rodzaj jest często używany przez cyberprzestępców lub atakujących sponsorowanych przez państwa podczas ich działań. To bardzo podejrzane, że aplikacja na urządzeniu używa tego rodzaju usługi, należy przeprowadzić śledztwo."
+        },
+        "IOC-06": {
+            "title": "Zaobserwowano zapytanie DNS o nazwę {}, która zawiera podejrzaną domenę najwyższego poziomu (TLD)",
+            "description": "Nazwa domenowa {} używa podejrzanej domeny najwyższego poziomu ({}). Pomimo, że sama w sobie nie złośliwa, ta domena najwyższego poziomu jest regularnie używana przez cyberprzestępców lub atakujących sponsorowanych przez państwa. Sprawdź domenę poprzez wyszukanie informacji o niej. Jeśli inne ostrzeżenia dotyczą tego adresu jest to bardzo podejrzane."
+        },
+        "IOC-07": {
+            "title": "A certificate associated to {} activities have been found in the communication to {}.",
+            "description": "The certificate ({}) associated to {} has been explicitly tagged as malicious. This indicates that your device is likely compromised and need a forensic analysis."
+        },
+        "IOC-08": {
+            "title": "An HTTP request have been done to {} which is tagged as {}.",
+            "description": "The domain name {} seen in the capture has been explicitly tagged as malicious. This indicates that your device is likely compromised and needs to be investigated deeply."
+        },
+        "IOC-09": {
+            "title": "An HTTP request have been done to the domain {} which is a Free DNS.",
+            "description": "The domain name {} is using a Free DNS service. This kind of service is commonly used by cybercriminals or state-sponsored threat actors during their operations. It is very suspicious that an application running in background use this kind of service, please investigate."
+        },
+        "IOC-10": {
+            "title": "An HTTP request have been done to the domain {} which contains a suspect TLD.",
+            "description": "The domain name {} is using a suspect Top Level Domain ({}). Even not malicious, this non-generic TLD is used regularly by cybercrime or state-sponsored operations. Please check this domain by searching it on an internet search engine. If other alerts are related to this host, please consider it as very suspicious."
+        },
+        "IOC-11": {
+            "title": "Połączenie z {} ({}), który jest określany jako węzeł sieci TOR.",
+            "description": "Serwer {} jest określany jako węzeł sieci anonymizującej TOR. Wygląda na to, że analizowane urządzenie używa sieci TOR lub komunikuje się z serwerem, który jest skonfigurowany jako węzeł wejściowy lub wyjściowy sieci TOR. Niektórzy atakujący używają sieci TOR w celu zatarcia śladów."
+        },
+        "IOC-12": {
+            "title": "Aplikacja komunikuje się z usługą, która może być nadużywana.",
+            "description": "Serwer {} jest używany dla uzasadnionych celów . Atakujący może być jednak w stanie komunikować się z implantami poprzez usługę. Zaleca się sprawdzić obecność na urządzenie prawowitej aplikcji przeznaczonej do korzystania z usługi."
+        },
+        "IOC-13": {
+            "title": "Co najmniej jedna aplikacja używa szyfrowania zapytań DNS.",
+            "description": "Skorzystano z serwera {} DNS over HTTPs (DoH) podczas badania. Wygląda na to, że co najmniej jedna aplikacja używa tej metody w celu szyfrowania zapytań DNS. Ogranicza to możliwościa przeglądania ruchu przez SpyGuard. Jeśli ta funkcja nie jest włączona na urządzeniu, warto dowiedzieć się, która aplikaja używa tej metody."
+        },
+        "ACT-01": {
+            "title": "Domena {} używa podejrzanego serwera nazw ({}).",
+            "description": "Nazwa domenowa {} używa serwera nazwa, który został jednoznacznie oznaczony jako skojarzony ze złośliwymi działaniami. Wielu cybeprzestępców oraz atakujących sponsorowanych przez państwa używa tego rodzaju rejestratorów nazw ponieważ pozwalają na płatności kryptowalutami oraz płatności anonimowe. Zaleca się zbadać tą domenę oraz aplikacje, które ją wykorzystują poprzez analizę telefonu metodami informatyki śledczej."
+        },
+        "ACT-02": {
+            "title": "Domena {} został stworzona całkiem niedawno ({} dni temu).",
+            "description": "Nazwa domenowa {} jest relatywnie nowa. Mimo że to samo w sobie nie jest złośliwe, dosyć często atakujący tworzą nową infrastrukturę dla kolejnych kampanii ataków co może objawiać się wykorzystaniem świeżo rejestrowanych domen."
+        },
+        "SSL-01": {
+            "title": "Połączenie TLS/SSL zrealizowane na niestandardowym porcie ({}) do {}",
+            "description": "Urządznie takie jak smartphone rzadko używają niestandardowych portów do połączeń TLS/SSL. Pomimo tego, że to może być całkowicie prawidłowe działanie, zalecamy sprawdzenie reputacji {} poprzez sprawdzenie rekordów WHOIS, skojarzone systemu autonomicznego, czasu utworzenia oraz przeszukanie internetu."
+        },
+        "SSL-02": {
+            "title": "Połączenie TLS/SSL do {} używającego darmowego certyfikatu.",
+            "description": "Darmowe certyfikaty - takie jak Let's Encrypt - są szeroko używane w obrębie serwerów kierowania i kontroli oraz do stron phishingowych. Zaleca się sprawdzić hosta skojarzonego z tym certyfikatem, przyjrzenie się domenie, jej dacie utworzenialub sprawdzenie reputacji hosta."
+        },
+        "SSL-03": {
+            "title": "Certyfikat towarzyszący {} jest z podpisem własnym (self-signed).",
+            "description": "Użycie certyfikatów z podpisem własnym (self-signed) jest częstą praktyką w przypadku infrastruktury atakujących. Zaleca się sprawdzić hosta {}, który jest skojarzony z certyfikatem, przyjrzeć się domenie (jeśli istnieje), rekordowi WHOIS, dacie utworzenia oraz sprawdzić reputację w internecie"
+        },
+        "SSL-04": {
+            "title": "Certyfikat towarzyszący {} jest skojarzony ze złośliwą działalnością ({}).",
+            "description": "Certyfikat wykorzystywany przez serwer {} został jednoznacznie skategoryzowany jako złośliwy. Twoje urządzenie wygląda na skompromitowane i powinno być poddane dalszej analizie przez profesjonalistów."
+        },
+        "SSL-05": {
+            "title": "Konfiguracja TLS/SSL hosta {} jest powiązana ze złośliwą działalnością ({}).",
+            "description": "Hash JARM skojarzony z serwerem {} został jednoznacznie skategoryzowany jako złośliwy. Twoje urządzenie może być skompromitowane i powinno być poddane dalszej analizie przez profesjonalistów."
+        },
+        "ADV-01": {
+            "title": "Check the alerts for {}",
+            "description": "Please, check the reputation of the host {}, this one seems to be malicious as it leveraged {} alerts during the session."
+        },
+        "SNORT-01": {
+            "title": "Zadziałała reguła Suricata: {}",
+            "description": "Reguła wykrywania zdarzeń została aktywowana. Jest prawdopodobne, że Twoje urządznie jest skompromitowane lub wykazuje podejrzane zachowanie."
+        }
+    },
+    "report": {
+        "numbers": [
+            "jeden",
+            "dwa",
+            "trzy",
+            "cztery",
+            "pięć",
+            "sześć",
+            "siedem",
+            "osiem",
+            "dziewięć"
+        ],
+        "suspect_title": "Podejrzana komunikacja",
+        "uncat_title": "Nieskategoryzowana komunikacja",
+        "whitelist_title": "Komunikacja z listy dozwolonej",
+        "protocol": "Protokół",
+        "domain": "Domena",
+        "dst_ip": "Docelowy adres IP",
+        "dst_port": "Docelowy numer portu",
+        "device_mac": "Adres MAC urządzenia",
+        "report_generated_on": "Raport wygenerowano",
+        "capture_duration": "Czas trwania badania",
+        "packets_number": "Liczba pakietów",
+        "capture_sha1": "SHA1 zapisu ruchu",
+        "report_for_the_capture": "Raport dla badania",
+        "report_footer": "Raport został wygenerowany automatycznie przez urządzenie SpyGuard. W sprawie pytań, błędów oraz oceny, kontakt: contact@spyguard.io.",
+        "high_msg": "Twoje urządzenie wygląd na skompromitowane, odnotowano {} wysokich ostrzeżeń.",
+        "moderate_msg": "Odntowano {} umiarkowanych ostrzeżeń, Twoje urządzenie może być skompromitowane. Badź czujna(y) używając go.",
+        "low_msg": "Odnotowano tylko niskie ostrzeżenia: {}. Możesz się im przyjrzeć.",
+        "none_msg": "Zero ostrzeżeń, wszystko wygląda dobrze. Możesz się przyjrzeć nieskategoryzowanej komunikacji, jeżeli miała miejsce.",
+        "detection_methods": "Metody detekcji",
+        "analysis_duration": "Czas trwania analizy",
+        "instance_uuid": "Instancja SpyGuard",
+        "seconds" : "sekund(y)"
+    }
+}

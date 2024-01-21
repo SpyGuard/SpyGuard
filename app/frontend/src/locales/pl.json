@@ -1,0 +1,93 @@
+{
+    "home": {
+        "welcome_msg": "Witaj w SpyGuard.",
+        "help_msg": "Pomożemy Ci sprawdzić Twoje urządzenie.",
+        "start_btn": "Start!"
+    },
+    "analysis": {
+        "question": "Czy chcesz przeanalizować przechwyconą komunikację?",
+        "no_btn": "Nie, tylko zapisz",
+        "yes_btn": "Tak, wykonaj",
+        "please_wait_msg": "Poczekaj na zakończenie analizy...",
+        "some_time_msg": "Tak, to może chwilę potrwać..."
+    },
+    "capture": {
+        "intercept_coms_msg": "Przechwytywanie komunikacji z ",
+        "stop_btn": "Zatrzymaj przechwytywanie"
+    },
+    "generate-ap": {
+        "network_name": "Nazwa sieci",
+        "network_password": "Hasło do sieci",
+        "tap_msg": "Naciśnij białą ramkę aby wygenerować nową sieć.",
+        "generate_ap_msg": "Wygenerujemy tymczasową sieć do wykorzystania.",
+        "error_msg1": "Niestety, wystąpiły problemy <br />podczas tworzenia punktu dostępowego.",
+        "error_msg2": "Sprawdź czy odpowiedni interfejs został skonfigurowany<br /> w ustawieniach zaplecza."
+    },
+    "report": {
+        "show_full_report": "Pokaż pełny raport",
+        "start_new_capture": "Rozpocznij od nowa",
+        "save_capture": "Zachowaj ruch sieciowy",
+        "save": "Zapisz",
+        "print": "Drukuj",
+        "numbers": [
+            "zero",
+            "jeden",
+            "dwa",
+            "trzy",
+            "cztery",
+            "pięć",
+            "sześć",
+            "siedem",
+            "osiem",
+            "dziewięć",
+            "dziesięć",
+            "jedenaście"
+        ],
+        "stalkerware_msg": "Twoje urządzenie jest zagrożone<br />przez stalkerware, zapoznaj się z raportem.",
+        "location_msg": "Aplikacja udostępnia Twoje<br /> bieżące położenie stronie trzeciej.",
+        "fine_msg": "Wszystko wygląda w porządku, zero alarmów.",
+        "high_msg": "Masz {nb} poważnych alarmów,<br />Twoje urządzenie wygląda na zagrożone.",
+        "moderate_msg": "Masz {nb} umiarkowanych alarmów,<br />Twoje urządzenie może być zagrożone.",
+        "low_msg": "Masz tylko {nb} niskich alarmów,<br />nie wahaj się ich sprawdzić.",
+        "save_report": "Zapisz raport",
+        "report_of": "Raport z",
+        "detection_methods": "Metody detekcji:",
+        "indicators": "Wskaźniki",
+        "heuristics": "Heurystyki",
+        "active": "Aktywne",
+        "pcap_sha1": "Suma SHA1 zapisu ruchu:",
+        "capture_started": "Przechwytywanie rozpoczęto o:",
+        "capture_ended": "Przechwytywanie zakończono o:",
+        "high": "wysoki",
+        "moderate": "umiarkowany",
+        "low": "niski",
+        "uncat_coms_table" : "Komunikacja nieskategoryzowana",
+        "whitelisted_coms_table" : "Komunikacja dozwolona",
+        "no_alerts_title" : "Analiza komunikacji z urządzenia nie spowodowała żadnych alarmów.",
+        "no_alerts_subtext" : "Zapoznaj się z komunikacją zaobserwowaną podczas przechwytywania.",
+        "protocol" : "Protokół",
+        "domain_name" : "Domena",
+        "ip_address" : "Adres IP",
+        "port" : "Port"
+    },
+    "wifi-select": {
+        "wifi_connected": "Wi-Fi - podłączono",
+        "wifi_not_connected": "Wi-Fi - nie podłączono. Spróbuj ponownie.",
+        "wifi_password": "Hasło",
+        "connect_to_it": "Podłącz"
+    },
+    "save-capture": {
+        "please_connect": "Podłącz pamięć USB aby zachować przechwycony ruch sieciowy.",
+        "we_are_saving": "Zapisywanie przechwytywania.",
+        "tap_msg": "Dotknij ikony pamięci USB aby rozpocząć nowe przechwytywnie.",
+        "capture_download": "Rozpocznie się pobieranie pliku przechwytywania...",
+        "start_capture_btn": "Rozpocznij kolejne przechwytywanie"
+    },
+    "modals": {
+        "want_to_quit": "Czy chcesz opuścić aplikację?",
+        "no_go_back": "Nie, wróć",
+        "yes_continue": "Tak, kontynuuj",
+        "please_give_the_password": "Podaj hasło do sieci: ",
+        "want_to_whitelist" : "Czy chcesz dodać <i class='ioc'>{host}</i> do listy dozwolonych<br />dla następnych analiz?"
+    }
+}
