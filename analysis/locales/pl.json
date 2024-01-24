@@ -134,7 +134,7 @@
         "packets_number": "Liczba pakietów",
         "capture_sha1": "SHA1 zapisu ruchu",
         "report_for_the_capture": "Raport dla badania",
-        "report_footer": "Raport został wygenerowany automatycznie przez urządzenie SpyGuard. W sprawie pytań, błędów oraz oceny, kontakt: contact@spyguard.io.",
+        "report_footer": "Raport został wygenerowany automatycznie przez urządzenie SpyGuard. W sprawie pytań, błędów oraz oceny, kontakt: spyguard@protonmail.com.",
         "high_msg": "Twoje urządzenie wygląd na skompromitowane, odnotowano {} wysokich ostrzeżeń.",
         "moderate_msg": "Odntowano {} umiarkowanych ostrzeżeń, Twoje urządzenie może być skompromitowane. Badź czujna(y) używając go.",
         "low_msg": "Odnotowano tylko niskie ostrzeżenia: {}. Możesz się im przyjrzeć.",

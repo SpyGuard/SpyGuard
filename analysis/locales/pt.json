@@ -134,7 +134,7 @@
         "packets_number": "Número de pacotes",
         "capture_sha1": "Captura SHA1",
         "report_for_the_capture": "Relatório da captura",
-        "report_footer": "Este relatório foi gerado automaticamente por um dispositivo SpyGuard. Em caso de dúvidas, relatório de erros ou comentários, envie uma mensagem para contact@spyguard.io.",
+        "report_footer": "Este relatório foi gerado automaticamente por um dispositivo SpyGuard. Em caso de dúvidas, relatório de erros ou comentários, envie uma mensagem para spyguard@protonmail.com.",
         "high_msg": "O dispositivo parece estar comprometido porque você tem {} alerta(s) crítico(s).",
         "moderate_msg": "Você tem {} alerta(s) moderado(s), seu dispositivo pode estar comprometido. Analise-os com cuidado.",
         "low_msg": "Você tem apenas {} alerta(s) leve(s), não deixe de verificá-los.",

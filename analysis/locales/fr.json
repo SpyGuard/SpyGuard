@@ -134,7 +134,7 @@
         "packets_number": "Nombre de paquets",
         "capture_sha1": "SHA1 de la capture",
         "report_for_the_capture": "Rapport pour la capture",
-        "report_footer": "Ce rapport a été automatiquement généré par une instance de SpyGuard. Pour toute question et retours, n'hésitez pas à contacter contact@spyguard.io.",
+        "report_footer": "Ce rapport a été automatiquement généré par une instance de SpyGuard. Pour toute question et retours, n'hésitez pas à contacter spyguard@protonmail.com.",
         "high_msg": "Votre appareil semble être compromis car vous avez {} alerte(s) élevée(s).",
         "moderate_msg": "Vous avez {} alerte(s) modérée(s), votre appareil peut être compromis. Regardez ces alertes en détail.",
         "low_msg": "Vous avez uniquement {} alerte(s) faibles, n'hésitez pas à les consulter.",
