@@ -1,5 +1,4 @@
 #!/bin/bash
-
 CURRENT_USER="${SUDO_USER}"
 SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
 HOST="$( hostname )"
@@ -80,7 +79,6 @@ generate_certificate() {
 
 create_services() {
     # Create services to launch the two servers.
-
     echo -e "\e[39m[+] Creating services\e[39m"
 
     echo -e "\e[92m    [✔] Creating frontend service\e[39m"
@@ -140,7 +138,6 @@ EOL
    systemctl start spyguard-backend
 }
 
-
 change_hostname() {
    # Changing the hostname to spyguard
    echo -e "[+] Changing the hostname to spyguard"
@@ -151,39 +148,34 @@ change_hostname() {
    echo "127.0.0.1  spyguard.local" >> /etc/hosts
 }
 
-install_package() {
-   # Install associated packages by using aptitude.
-    if [[ $1 == "tshark" || $1 == "sqlite3" || $1 == "suricata" ]]; then
-       apt install $1 -y
-    elif [[ $1 == "dig" ]]; then
-       apt install -y dnsutils
-    elif [[ $1 == "pip3" ]]; then
-       apt install -y python3-pip
-    elif [[ $1 == "arp" ]]; then
-       apt install -y net-tools
+install_packages() {
+# Install associated packages by using aptitude.
+packages=("tshark"
+	   "sqlite3"
+	   "suricata"
+	   "dnsutils"
+	   "python3-pip"
+	   "python3-venv"
+	   "net-tools")
+ 
+echo -e "\e[39m[+] Checking dependencies...\e[39m"
+for package in "${packages[@]}"
+do
+    if dpkg-query -W -f='${Status}' "$package" 2>/dev/null | grep -q -P '^install ok installed$'; then
+        echo -e "\e[92m    [✔] $package already installed\e[39m"
+    else
+        echo -e "\e[93m    [✘] $package not installed, lets install it\e[39m"
+        apt-get install -y "$package"
+        if [ $? -eq 0 ]; then
+            echo -e "\e[92m    [✔] $package was successfully installed\e[39m"
+        else
+            echo -e "\e[91m    [✘] $package has an error during the installation\e[39m"
+        fi
     fi
+done
 }
 
-check_dependencies() {
-   # Check binary dependencies associated to the project.
-   # If not installed, call install_package with the package name.
-   bins=("/usr/bin/tshark"
-         "/usr/bin/dig"
-         "/usr/bin/suricata"
-         "/usr/bin/sqlite3"
-         "/usr/bin/pip3"
-         "/usr/sbin/arp")
-
-   echo -e "\e[39m[+] Checking dependencies...\e[39m"
-   for bin in "${bins[@]}"
-   do
-       if [[ -f "$bin" ]]; then
-           echo -e "\e[92m    [✔] ${bin##*/} installed\e[39m"
-       else
-           echo -e "\e[93m    [✘] ${bin##*/} not installed, lets install it\e[39m"
-           install_package ${bin##*/}
-       fi
-   done
+create_venv() {
    echo -e "\e[39m[+] Create and activate Virtual Environment for Python packages\e[39m"
    python3 -m venv /usr/share/spyguard/spyguard-venv
    source /usr/share/spyguard/spyguard-venv/bin/activate
@@ -208,7 +200,7 @@ cleaning() {
     systemctl disable suricata.service &> /dev/null
 
     # Removing some useless dependencies.
-    sudo apt autoremove -y &> /dev/null
+    apt autoremove -y &> /dev/null
 
     echo -e "\e[92m[+] Installation finished! You can open https://localhost:8443 to configure network settings.\e[39m"
 }
@@ -243,7 +235,8 @@ else
     get_version
     set_userlang
     set_credentials
-    check_dependencies
+    install_packages
+    create_venv
     change_hostname
     generate_certificate
     create_database
