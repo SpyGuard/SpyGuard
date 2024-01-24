@@ -1,5 +1,4 @@
 #!/bin/bash
-
 CURRENT_USER="${SUDO_USER}"
 SCRIPT_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
 HOST="$( hostname )"
@@ -80,7 +79,6 @@ generate_certificate() {
 
 create_services() {
     # Create services to launch the two servers.
-
     echo -e "\e[39m[+] Creating services\e[39m"
 
     echo -e "\e[92m    [✔] Creating frontend service\e[39m"
@@ -140,7 +138,6 @@ EOL
    systemctl start spyguard-backend
 }
 
-
 change_hostname() {
    # Changing the hostname to spyguard
    echo -e "[+] Changing the hostname to spyguard"
@@ -184,7 +181,8 @@ check_dependencies() {
            install_package ${bin##*/}
        fi
    done
-   echo -e "\e[39m[+] Create and activate Virtual Environment for Python packages\e[39m"
+   echo -e "\e[39m[+] Install and prepare Virtual Environment for Python packages\e[39m"
+   apt install python3-venv
    python3 -m venv /usr/share/spyguard/spyguard-venv
    source /usr/share/spyguard/spyguard-venv/bin/activate
    echo -e "\e[39m[+] Install Python packages...\e[39m"
