@@ -162,9 +162,9 @@ echo -e "\e[39m[+] Checking dependencies...\e[39m"
 for package in "${packages[@]}"
 do
     if dpkg-query -W -f='${Status}' "$package" 2>/dev/null | grep -q -P '^install ok installed$'; then
-        echo -e "\e[92m    [✔] $package already installed\e[39m"
+        echo -e "\e[92m    [✔] $package is already installed\e[39m"
     else
-        echo -e "\e[93m    [✘] $package not installed, lets install it\e[39m"
+        echo -e "\e[93m    [✘] $package is not installed, lets install it\e[39m"
         apt-get install -y "$package"
         if [ $? -eq 0 ]; then
             echo -e "\e[92m    [✔] $package was successfully installed\e[39m"
