@@ -65,11 +65,11 @@
             "description": "Der Server {} wird als Knoten im TOR-Anonymisierungsnetzwerk referenziert. Das analysierte Gerät scheint TOR zu verwenden oder mit einem Server zu kommunizieren, der als TOR-Eingangs- oder -Ausgangsknoten konfiguriert ist. Einige Angreifer nutzen TOR auf ihren Servern, um ihre Spuren zu verwischen."
         },
         "IOC-12": {
-            "title": "Eine Anwendung fordert einen legitimen Dienst an, der möglicherweise doppelt verwendet wird."
+            "title": "Eine Anwendung fordert einen legitimen Dienst an, der möglicherweise doppelt verwendet wird.",
             "description": "Der Server {} wird für legitime Zwecke verwendet. Einige Angreifer können ihn jedoch verwenden, um mit ihren Implantaten zu interagieren. Es wird empfohlen, zu überprüfen, ob das analysierte Gerät eine legitime Anwendung enthält, die diesen Dienst verwendet."
         },
         "IOC-13": {
-            "title": "Mindestens eine Anwendung verwendet verschlüsselte DNS-Abfragen."
+            "title": "Mindestens eine Anwendung verwendet verschlüsselte DNS-Abfragen.",
             "description": "Der DNS over HTTPs server {} wurde während der Erfassung kontaktiert. Dies scheint darauf hinzuweisen, dass mindestens eine Anwendung diese Technik verwendet, um ihre DNS-Anfragen zu verschlüsseln. Diese Funktion schränkt die Scanfunktionen von SpyGuard ein. Wenn diese Funktion auf dem analysierten Gerät nicht aktiviert ist, kann es sich lohnen, herauszufinden, welche App diese Methode verwendet."
         },
         "ACT-01": {
