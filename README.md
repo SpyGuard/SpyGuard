@@ -6,7 +6,7 @@ SpyGuard is a forked and enhanced version of [TinyCheck](https://github.com/Kasp
 
 As it uses WiFi, SpyGuard can be used against a wide range of devices, such as smartphones, laptops, IOTs or workstations. To do its job, the analysis engine of SpyGuard is using Indicators of Compromise (IOCs), anomaly detection and is supported by [Suricata](https://suricata.io).
 
-### Example use cases
+### Examples of use cases
 
 |  📰 Journalists   |     🏦 IT Services      |  🌏 NGOs | 👩 Women's Shelter | 👮‍♂️ Police Forces |
 |:--------:|:-------------:|:-----:|:-----:|:-----:|
