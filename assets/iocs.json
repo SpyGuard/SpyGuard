@@ -30167,6 +30167,252 @@
             "tag": "apt",
             "tlp": "white",
             "value": "ley4.shopdailyupdates.com"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "146.70.71.135"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "146.70.145.242"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "146.70.40.234"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "84.252.94.184"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "217.138.215.105"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "146.70.80.66"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "185.236.203.159"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "217.138.215.79"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "193.29.104.25"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "2.58.15.214"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "2.58.15.58"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "2.58.14.183"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "2.58.14.246"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "46.30.188.221"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "23.29.115.186"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "91.206.178.133"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "45.86.163.163"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "91.206.178.109"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "185.243.113.47"
+        },
+        {
+            "type": "ip4addr",
+            "tag": "apt",
+            "tlp": "white",
+            "value": "185.243.115.88"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "2.58.14.0/23"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "185.236.203.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "217.138.215.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "146.70.80.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "84.252.94.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "146.70.40.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "146.70.71.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "146.70.145.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "193.29.104.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "185.243.113.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "185.243.115.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "46.30.188.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "23.29.114.0/23"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "91.206.178.0/23"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "45.86.163.0/24"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "88.80.146.0/23"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "152.89.160.0/22"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "46.183.216.0/21"
+        },
+        {
+            "type": "cidr",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "185.163.204.0/24"
+        },
+        {
+            "type": "ns",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "cloud-zero.net"
+        },
+        {
+            "type": "ns",
+            "tag": "suspicious",
+            "tlp": "white",
+            "value": "bwhdns.com"
         }
     ]
 }
