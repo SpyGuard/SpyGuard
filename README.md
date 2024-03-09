@@ -12,7 +12,7 @@ As it uses WiFi, SpyGuard can be used against a wide range of devices, such as s
 |:--------:|:-------------:|:-----:|:-----:|:-----:|
 | As a journalist, I need to test my smartphone's against spyware before or during engagements with confidential informants. |  Working for a public institution, I aim to set up a self-service station where individuals can check their smartphones for spyware. | After traveling overseas, I'm looking to check my phone and laptop quickly. | I seek to examine the smartphones of women upon their arrival for any stalkerware. | I aim to check the communications of a smartphone in response to a complaint, as a preliminary step before proceeding with a full forensic analysis. |
 
-**Note:** SpyGuard is not a forensic tool. Therefore, it might miss malware that does not communicate during the analysis. [Please refer to the FAQ for more information](https://github.com/SpyGuard/SpyGuard/wiki/Frequently-Asked-Questions#1-spyguard-hasnt-detected-anything-malicious-im-safe).
+**Note:** *SpyGuard is not a forensic tool*. Therefore, it might miss malware that does not communicate during the analysis. [Please refer to the FAQ for more information](https://github.com/SpyGuard/SpyGuard/wiki/Frequently-Asked-Questions#1-spyguard-hasnt-detected-anything-malicious-im-safe).
 
 ### Installation
 
