@@ -6,6 +6,14 @@ SpyGuard is a forked and enhanced version of [TinyCheck](https://github.com/Kasp
 
 As it uses WiFi, SpyGuard can be used against a wide range of devices, such as smartphones, laptops, IOTs or workstations. To do its job, the analysis engine of SpyGuard is using Indicators of Compromise (IOCs), anomaly detection and is supported by [Suricata](https://suricata.io).
 
+### Example use cases
+
+| Journalists   |      IT Services      |  NGOs |  Women's Shelter | Police Forces |
+|:--------:|:-------------:|:-----:|:-----:|:-----:|
+| As a journalist, I need to test my smartphone's against spyware before or during engagements with confidential informants. |  Working for a public institution, I aim to set up a self-service station where individuals can check their smartphones for spyware. | After traveling overseas, I'm looking to check my phone and laptop quickly. | I seek to examine the smartphones of women upon their arrival for any stalkerware. | I aim to check the communications of a smartphone in response to a complaint, as a preliminary step before proceeding with a full forensic analysis. |
+
+**Note:** SpyGuard is not a forensic tool. Therefore, it might miss malware that does not communicate during the analysis. [Please refer to the FAQ for more information](https://github.com/SpyGuard/SpyGuard/wiki/Frequently-Asked-Questions#1-spyguard-hasnt-detected-anything-malicious-im-safe).
+
 ### Installation
 
 You need a debian-like operating system to install it easly by using the provided bash script. Once you've cloned the repository, just launch `install.sh` as root. Here are the command lines to do that:
@@ -45,7 +53,7 @@ You can use SpyGuard in a commercial product. However, you can't use SpyGuard as
 
 ### Contact
 
-If you need an express help or have a specific demand/question, do not hesitate to contact [the author](https://twitter.com/felixaime) via Twitter or by sending an email at spyguard@protonmail.com. A bug? Do not hesitate to open a [new issue](https://github.com/SpyGuard/spyguard/issues).
+If you need an express help to understand the results of the analysis or have a specific demand/question, do not hesitate to contact [the author](https://twitter.com/felixaime) via Twitter or by sending an email at spyguard@protonmail.com. A bug? Do not hesitate to open a [new issue](https://github.com/SpyGuard/spyguard/issues).
 
 ### They have contributed to or helped this project
 
