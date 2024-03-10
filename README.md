@@ -34,8 +34,8 @@ The frontend is available at the URL `https://localhost:8000`.
 ### Smartphone analysis best practices 
 
 * Do the interception in a public place (library, restaurant, train station...) or common place (office, home...); 
-* Intercept the network communications of the device for at least 10 minutes; 
-* Interact with the analysed device during the interception (reboot it, take a photo, send a message...);
+* Intercept the network communications of the device for at least 15 minutes; 
+* Interact with the analysed device during the interception (reboot it, take a photo, send an SMS...);
 
 ### SpyGuard and Stalkerware threat
 
