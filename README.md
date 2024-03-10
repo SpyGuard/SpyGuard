@@ -27,11 +27,11 @@ Once installed, you can go to the backend interface located at `https://localhos
 
 > [!WARNING]
 > Please check prior the installation that your Linux distribution is using `nmcli` to manage networks. If you want to install it on a Raspberry Pi
-> you need to activate it via the `raspi-config` interface prior Spyguard installation.
+> you need to activate it via the `raspi-config` interface prior Spyguard installation ([See here](https://github.com/SpyGuard/spyguard/wiki/Installing-SpyGuard#common-issues)).
 
 The frontend is available at the URL `https://localhost:8000`.
 
-### Smartphone analysis best practices 
+### Smartpho)ne analysis best practices 
 
 * Do the interception in a public place (library, restaurant, train station...) or common place (office, home...); 
 * Intercept the network communications of the device for at least 15 minutes; 
