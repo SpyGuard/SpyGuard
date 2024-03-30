@@ -31,7 +31,7 @@ Once installed, you can go to the backend interface located at `https://localhos
 
 The frontend is available at the URL `https://localhost:8000`.
 
-### Smartpho)ne analysis best practices 
+### Smartphone analysis best practices 
 
 * Do the interception in a public place (library, restaurant, train station...) or common place (office, home...); 
 * Intercept the network communications of the device for at least 15 minutes; 
