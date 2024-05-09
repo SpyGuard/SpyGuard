@@ -156,7 +156,8 @@ packages=("tshark"
 	   "dnsutils"
 	   "python3-pip"
 	   "python3-venv"
-	   "net-tools")
+	   "net-tools"
+           "python3-pil")
  
 echo -e "\e[39m[+] Checking dependencies...\e[39m"
 for package in "${packages[@]}"
