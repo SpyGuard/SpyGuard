@@ -157,7 +157,9 @@ packages=("tshark"
 	   "python3-pip"
 	   "python3-venv"
 	   "net-tools"
-           "python3-pil")
+           "python3-pil"
+	   "libpango-1.0"
+           "libpangoft2-1.0-0")
  
 echo -e "\e[39m[+] Checking dependencies...\e[39m"
 for package in "${packages[@]}"
