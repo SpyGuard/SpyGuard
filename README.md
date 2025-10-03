@@ -41,10 +41,6 @@ The frontend is available at the URL `https://localhost:8000`.
 
 The indicators of compromise (IOCs) linked to stalkerware are now fully managed by [ECHAP](https://echap.eu.org), a French association working against cyberviolence. Even though stalkerware still remains a threat, **remember that most of digital violence and surveillance is done by using simple means**, such as hacking cloud & mail accounts. Therefore, we encourage you to consult the [ECHAP guides](https://echap.eu.org/ressources/) and apply their advice to your digital life alongside of device checks.
 
-> [!IMPORTANT]
-> It is worth mentioning that the IOCs are distributed under the **Creative Common BY-NC-SA** licence.
-> This imply a **non commercial use** of them. Please respect this licence and ask ECHAP for any question related to that.
-
 ### Commercial use
 
 You can use SpyGuard in a commercial product. However, you can't use SpyGuard as the name of your product and you’re still required to follow the terms and conditions that the Apache License imposes, like refering to the SpyGuard project in customer documentation. Moreover, a sweet note to explain your use to the author is always appreciated, please see the contact below. You liked SpyGuard? Do not hesistate to make a donation!
