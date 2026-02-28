@@ -43,8 +43,8 @@
                     <h3 style="margin: 0; padding-left:10px;">{{ $t("report.report_of") }} {{device.name}}</h3>
                     <div class="device-ctx-legend">
                         {{ $t("report.pcap_sha1") }} {{ pcap.SHA1 }}<br />
-                        {{ $t("report.capture_started") }} {{ pcap["First packet time"].split(",")[0] }}<br />
-                        {{ $t("report.capture_ended") }} {{ pcap["Last packet time"].split(",")[0] }}<br />
+                        {{ $t("report.capture_started") }} {{ (pcap["First packet time"] ?? pcap["Earliest packet time"]).split(",")[0] }}<br />
+                        {{ $t("report.capture_ended") }} {{ (pcap["Last packet time"] ?? pcap["Latest packet time"]).split(",")[0] }}<br />
                         {{ $t("report.detection_methods") }} {{ detection_methods }}
                     </div>
                 </div>
