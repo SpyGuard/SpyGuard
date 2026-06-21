@@ -173,7 +173,10 @@ packages=("tshark"
 	   "dnsutils"
 	   "python3-pip"
 	   "python3-venv"
-	   "net-tools")
+	   "net-tools"
+           "python3-pil"
+	   "libpango-1.0"
+           "libpangoft2-1.0-0")
  
 echo -e "\e[39m[+] Checking dependencies...\e[39m"
 echo -e "\e[39m[+] Updating APT package lists...\e[39m"
